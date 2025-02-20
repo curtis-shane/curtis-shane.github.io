@@ -9,6 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: hello.qmd
+        text: My python page
 
 format:
   html:

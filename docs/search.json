@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "hello.html",
+    "href": "hello.html",
+    "title": "Untitled",
     "section": "",
-    "text": "About this site"
+    "text": "sdjfhbsier\n\nlevel 2 header\n\nprint(\"hello world\")\n\nhello world"
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,12 @@
     "title": "Shane Curtis",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
