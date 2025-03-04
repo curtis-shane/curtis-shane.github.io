@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: /Users/shanecurtis/Project/curtis-shane.github.io/profile_picture.jpg
+image: profile_picture.jpg
 about:
   template: jolla
   links: 
