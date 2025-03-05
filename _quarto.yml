@@ -20,5 +20,12 @@ format:
     css: styles.css
     toc: true
 
+website:
+  title: "https://curtis-shane.github.io"
+  favicon: /Users/shanecurtis/Project/curtis-shane.github.io/E-Portfolio_Logo.png 
+  navbar:
+    title: false
+    logo: /Users/shanecurtis/Project/curtis-shane.github.io/E-Portfolio_Logo.png
+
 
 
