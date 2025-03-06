@@ -22,10 +22,10 @@ format:
 
 website:
   title: "https://curtis-shane.github.io"
-  favicon: "E-Portfolio_Logo.png" 
+  favicon: "https://curtis-shane.github.io/E-Portfolio_Logo.png" 
   navbar:
     title: false
-    logo: "E-Portfolio_Logo.png"
+    logo: "https://curtis-shane.github.io/E-Portfolio_Logo.png"
 
 
 
