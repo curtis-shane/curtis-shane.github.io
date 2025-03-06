@@ -21,7 +21,7 @@ format:
     toc: true
 
 website:
-  title: https://curtis-shane.github.io
+  title: Shane_Curtis
   favicon: E-Portfolio_Logo.png
   navbar:
     title: false
