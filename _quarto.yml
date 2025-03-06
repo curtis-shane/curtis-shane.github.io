@@ -4,10 +4,10 @@ project:
 
 website:
   title: "Shane Curtis"
-  favicon: "E-Portfolio_Logo.png"  
+  favicon: E-Portfolio_Logo.png  
   navbar:
     title: false
-    logo: "E-Portfolio_Logo.png"   
+    logo: E-Portfolio_Logo.png  
     left:
       - href: index.qmd
         text: Home
