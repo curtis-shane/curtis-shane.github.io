@@ -6,7 +6,7 @@ about:
   links: 
     - icon: linkedin 
       text: LinkedIn
-      href: https://ie.linkedin.com/in/shane-curtis/
+      href: https://www.linkedin.com/in/shane-curtis-8101022b1/
 ---
 
 about this site
