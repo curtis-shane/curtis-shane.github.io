@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Shane Curtis"
-  favicon: E-Portfolio_Logo.png
+  favicon: Moneywall.png
   navbar:
     title: false
     logo: E-Portfolio_Logo.png
