@@ -21,11 +21,11 @@ format:
     toc: true
 
 website:
-  title: "https://curtis-shane.github.io"
-  favicon: "https://curtis-shane.github.io/E-Portfolio_Logo.png" 
+  title: https://curtis-shane.github.io
+  favicon: E-Portfolio_Logo.png
   navbar:
     title: false
-    logo: "https://curtis-shane.github.io/E-Portfolio_Logo.png"
+    logo: E-Portfolio_Logo.png
 
 
 
