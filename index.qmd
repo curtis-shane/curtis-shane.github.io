@@ -1,6 +1,6 @@
 ---
 title: "Shane Curtis"
-image: E-portfolio_home_page_photo.png
+image: E-portfolio_home_photo.png
 about:
   template: broadside
 ---
