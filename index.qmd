@@ -1,10 +1,11 @@
 ---
 title: "Shane Curtis"
-image: E-portfolio_home_photo.png
+image: E-portfolio_home_page_photo.png
 about:
   template: broadside
 ---
 
-This is a Quarto website.
+## Hi, I'm Shane Curtis!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to my personal website—where business meets data, creativity, and entrepreneurship. I'm a DCU Business Studies student specializing in Data Analytics, founder of a vintage clothing business, and actively involved in my family's retail business, Curtis & Dunne. Dive in to discover my projects, interests, and insights, or get in touch to collaborate!
+
