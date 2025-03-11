@@ -18,7 +18,10 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - minty
       - brand
+
+
+
 
 
