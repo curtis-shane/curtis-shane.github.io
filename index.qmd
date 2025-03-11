@@ -1,5 +1,5 @@
 ---
-title: "Shane Curtis"
+title: "Home Page"
 image: E-portfolio_home_photo.png
 about:
   template: broadside
