@@ -1,5 +1,8 @@
 ---
 title: "Shane Curtis"
+image: E-portfolio_home_page_photo.heic
+about:
+  template: broadside
 ---
 
 This is a Quarto website.
