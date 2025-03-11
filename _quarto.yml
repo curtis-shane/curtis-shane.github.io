@@ -4,10 +4,10 @@ project:
 
 website:
   title: "Shane Curtis"
-  favicon: New_Logo.png  
+  favicon: Newer_Logo.png  
   navbar:
     title: false
-    logo: New_Logo.png  
+    logo: Newer_Logo.png  
     left:
       - href: index.qmd
         text: Home
