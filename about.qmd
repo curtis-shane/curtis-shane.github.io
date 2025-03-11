@@ -9,5 +9,6 @@ about:
       href: https://www.linkedin.com/in/shane-curtis-8101022b1/
 ---
 
-about this site
+Shane Curtis' Website
+This website will display my coding skill and display prior work experience and business acumen
 
