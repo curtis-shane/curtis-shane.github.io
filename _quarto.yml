@@ -13,7 +13,7 @@ website:
         text: Home
       - about.qmd
       - href: work.qmd
-        text: My Work
+        text: My Work Page
 
 format:
   html:
