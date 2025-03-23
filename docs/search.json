@@ -9,9 +9,9 @@
   {
     "objectID": "work.html",
     "href": "work.html",
-    "title": "Untitled",
+    "title": "My Work",
     "section": "",
-    "text": "sdjfhbsier\n\nlevel 2 header\n\nprint(\"hello world\")\n\nhello world"
+    "text": "This is Curtis&Dunne, my family’s menswear clothing store based in the town of Drogheda. Since opening in 2020, Curtis&Dunne has built a community of loyal customers and fostered a strong local community spirit. In the five years I’ve worked at Curtis&Dunne, I have learned so much about the day-to-day running and management of a business. In addition, I have personally overseen the social media aspect of the business and helped manage traffic flows for the e-commerce side. Curtis&Dunne has played a huge role in my development, and I continue to learn day in and day out from this family venture."
   },
   {
     "objectID": "index.html",
@@ -26,5 +26,33 @@
     "title": "Home Page",
     "section": "",
     "text": "Welcome to my personal website—where business meets data, creativity, and entrepreneurship. I’m a DCU Business Studies student specializing in Data Analytics, founder of a vintage clothing business, and actively involved in my family’s retail business, Curtis & Dunne. Dive in to discover my projects, interests, and insights, or get in touch to collaborate."
+  },
+  {
+    "objectID": "work.html#curtisdunne",
+    "href": "work.html#curtisdunne",
+    "title": "My Work",
+    "section": "",
+    "text": "This is Curtis&Dunne, my family’s menswear clothing store based in the town of Drogheda. Since opening in 2020, Curtis&Dunne has built a community of loyal customers and fostered a strong local community spirit. In the five years I’ve worked at Curtis&Dunne, I have learned so much about the day-to-day running and management of a business. In addition, I have personally overseen the social media aspect of the business and helped manage traffic flows for the e-commerce side. Curtis&Dunne has played a huge role in my development, and I continue to learn day in and day out from this family venture."
+  },
+  {
+    "objectID": "work.html#vintage-varsity",
+    "href": "work.html#vintage-varsity",
+    "title": "My Work",
+    "section": "Vintage Varsity",
+    "text": "Vintage Varsity\n\n\nVintage Varsity is my entrepreneurial venture, which I started in late 2023. As someone who has always been interested in starting my own business, I thought it would be a fun yet educational project to pursue. I created the logo, business name, and brand identity first. Following this, I sourced multiple suppliers from Cork and Dublin to Austria, where I obtain vintage American apparel such as university hoodies and sweatshirts, as well as American pro sports jerseys (NFL, NBA, MLB, and NHL)."
+  },
+  {
+    "objectID": "work.html#stockpath",
+    "href": "work.html#stockpath",
+    "title": "My Work",
+    "section": "StockPath",
+    "text": "StockPath\n\n\nStockPath is my New Enterprise Development (NED) Project, where my team was tasked with developing a business idea and a comprehensive business plan covering everything from feasibility to marketing. Our business is centered around stock management and tracking software designed to allow businesses to perform stock takes on a regular basis while streamlining the traditional, arduous stock-taking process. StockPath gives businesses the freedom to delegate stock-related tasks and gain access to key stock insights, such as best sellers and low-stock alerts."
+  },
+  {
+    "objectID": "work.html#bennet-hospitality-internship",
+    "href": "work.html#bennet-hospitality-internship",
+    "title": "My Work",
+    "section": "Bennet Hospitality Internship",
+    "text": "Bennet Hospitality Internship\n\n\nI will be taking part in the Bennet Hospitality Internship in the summer of 2025, a fantastic transatlantic work opportunity. The internship was open to four students from the Business Studies final year class, and following three rounds of rigorous interviews, I was offered one of the four positions available this summer. I am excited to immerse myself in a real-world environment that promises both professional development and personal growth, while gaining valuable insights into the global hospitality industry. This internship is a fantastic opportunity that I eagerly look forward to taking part in."
   }
 ]
