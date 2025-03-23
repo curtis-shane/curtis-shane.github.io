@@ -1,6 +1,10 @@
 ---
 title: "My Work"
 layout: "default"
+toc: true
+toc-title: "On this page"
+toc-location: right
+page-layout: full
 ---
 
 ## Curtis&Dunne
