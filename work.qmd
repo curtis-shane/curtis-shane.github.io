@@ -19,7 +19,7 @@ page-layout: full
   This is Curtis&Dunne, my family’s menswear clothing store based in the town of Drogheda. Since opening in 2020, Curtis&Dunne has built a community of loyal customers and fostered a strong local community spirit. In the five years I’ve worked at Curtis&Dunne, I have learned so much about the day-to-day running and management of a business. In addition, I have personally overseen the social media aspect of the business and helped manage traffic flows for the e-commerce side. Curtis&Dunne has played a huge role in my development, and I continue to learn day in and day out from this family venture.
 </p>
 
-<div style="clear: both; margin-top: 40px;"></div>
+<div style="clear: both; margin-top: 80px;"></div>
 
 ## Vintage Varsity
 
@@ -33,7 +33,7 @@ page-layout: full
   Vintage Varsity is my entrepreneurial venture, which I started in late 2023. As someone who has always been interested in starting my own business, I thought it would be a fun yet educational project to pursue. I created the logo, business name, and brand identity first. Following this, I sourced multiple suppliers from Cork and Dublin to Austria, where I obtain vintage American apparel such as university hoodies and sweatshirts, as well as American pro sports jerseys (NFL, NBA, MLB, and NHL).
 </p>
 
-<div style="clear: both; margin-top: 40px;"></div>
+<div style="clear: both; margin-top: 80px;"></div>
 
 ## StockPath
 
@@ -47,7 +47,7 @@ page-layout: full
 StockPath is my New Enterprise Development (NED) Project, where my team was tasked with developing a business idea and a comprehensive business plan covering everything from feasibility to marketing. Our business is centered around stock management and tracking software designed to allow businesses to perform stock takes on a regular basis while streamlining the traditional, arduous stock-taking process. StockPath gives businesses the freedom to delegate stock-related tasks and gain access to key stock insights, such as best sellers and low-stock alerts.
 </p>
 
-<div style="clear: both; margin-top: 40px;"></div>
+<div style="clear: both; margin-top: 80px;"></div>
 
 ## Bennet Hospitality Internship
 
