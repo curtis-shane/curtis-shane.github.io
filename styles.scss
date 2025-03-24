@@ -2,8 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-
 $slate: #eeeeee;
 $body-bg: $slate;
 $navbar-fg: $slate;
 
+/* Increase the overall navbar height */
+.navbar {
+  min-height: 80px !important;
+}
+
+/* Increase font size and padding for navbar links */
+.navbar a {
+  font-size: 1.25rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
