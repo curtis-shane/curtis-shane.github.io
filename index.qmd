@@ -1,6 +1,6 @@
 ---
 title: "Home Page"
-image: E-portfolio_home_photo.png
+image: images/E-portfolio_home_photo.png
 about:
   template: broadside
 ---

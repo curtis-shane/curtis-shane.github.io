@@ -10,7 +10,7 @@ page-layout: full
 ## Curtis&Dunne
 
 <img 
-  src="candd.png" 
+  src="images/candd.png" 
   alt="C&D Project Thumbnail" 
   style="float: left; margin-right: 20px; width: 350px;"
 />
@@ -24,7 +24,7 @@ page-layout: full
 ## Vintage Varsity
 
 <img
-  src="varsity-vintage.png"
+  src="images/varsity-vintage.png"
   alt="Vintage Varsity Project Thumbnail"
   style="float: right; margin-left: 20px; width: 350px;"
 />
@@ -38,7 +38,7 @@ page-layout: full
 ## StockPath
 
 <img 
-  src="stockpath_website_photo.png" 
+  src="images/stockpath_website_photo.png" 
   alt="StockPath Project Thumbnail" 
   style="float: left; margin-right: 20px; width: 350px;"
 />
@@ -52,7 +52,7 @@ StockPath is my New Enterprise Development (NED) Project, where my team was task
 ## Bennet Hospitality Internship
 
 <img
-  src="bennett_hospitality.png"
+  src="images/bennett_hospitality.png"
   alt="Vintage Varsity Project Thumbnail"
   style="float: right; margin-left: 20px; width: 350px;"
 />

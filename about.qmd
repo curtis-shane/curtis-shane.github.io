@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: E-portfolio_about_photo.png
+image: images/E-portfolio_about_photo.png
 about:
   template: jolla
   links: 
