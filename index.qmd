@@ -1,11 +1,58 @@
 ---
-title: "Home Page"
+title: ""
 image: images/E-portfolio_home_photo.png
 about:
-  template: broadside
+  template: marquee
 ---
+
+<style>
+  /* Adjust the hero image size in the marquee template */
+  .marquee .hero-image img {
+    max-width: 20%; /* Adjust as needed */
+    height: auto;
+    margin: auto;
+  }
+
+  /* Hover effect for clickable images in the table */
+  table img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  table img:hover {
+    transform: translateY(-10px);
+  }
+</style>
+
+<div style="text-align: center;">
 
 ## Hi, I'm Shane Curtis!
 
 Welcome to my personal website—where business meets data, creativity, and entrepreneurship. I'm a DCU Business Studies student specializing in Data Analytics, founder of a vintage clothing business, and actively involved in my family's retail business, Curtis & Dunne. Dive in to discover my projects, interests, and insights, or get in touch to collaborate.
 
+<div style="clear: both; margin-top: 60px;"></div>
+
+<div style="text-align: center;">
+
+| [![](images/candd.png)](work.qmd) | [![](images/hobbies_cover.png)](hobbie.qmd) | [![](images/dcu_cover.png)](college_work.qmd) |
+|:--------------------------:|:---------------------------:|:-----------------------------------:|
+|  i work at **curtisanddunne** it is a great family run business and we sell nice clothes |  varsity vintage is my vintage clothing business that i set up in 2023 becasue i was bored |  i like to make new projects because they are fun and i get to do lots of things |
+
+</div>
+
+<div style="margin-top: 100px; text-align: center;">
+### Contact Me
+
+<!-- Include Font Awesome from CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://github.com/curtis-shane" style="margin: 0 15px; font-size: 2em; text-decoration: none;">
+    <i class="fa-brands fa-github"></i>
+  </a>
+  <a href="mailto:shanecurtis2004@gmail.com" style="margin: 0 15px; font-size: 2em; text-decoration: none;">
+    <i class="fa-solid fa-envelope"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/shane-curtis-462674334/" style="margin: 0 15px; font-size: 2em; text-decoration: none;">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+</div>
