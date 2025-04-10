@@ -35,7 +35,7 @@ Welcome to my personal website—where business meets data, creativity, and entr
 
 | [![](images/candd.png)](work.qmd) | [![](images/hobbies_cover.png)](hobbie.qmd) | [![](images/dcu_cover.png)](college_work.qmd) |
 |:--------------------------:|:---------------------------:|:-----------------------------------:|
-|  i work at **curtisanddunne** it is a great family run business and we sell nice clothes |  varsity vintage is my vintage clothing business that i set up in 2023 becasue i was bored |  i like to make new projects because they are fun and i get to do lots of things |
+|  i work at candd it is a great family run business and we sell nice clothes |  varsity vintage is my vintage clothing business that i set up in 2023 becasue i was bored |  i like to make new projects because they are fun and i get to do lots of things |
 
 </div>
 
