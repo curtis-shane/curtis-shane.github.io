@@ -35,30 +35,16 @@ page-layout: full
 
 <div style="clear: both; margin-top: 80px;"></div>
 
-## StockPath
-
-<img 
-  src="images/stockpath_website_photo.png" 
-  alt="StockPath Project Thumbnail" 
-  style="float: left; margin-right: 20px; width: 350px;"
-/>
-
-<p>
-StockPath is my New Enterprise Development (NED) Project, where my team was tasked with developing a business idea and a comprehensive business plan covering everything from feasibility to marketing. Our business is centered around stock management and tracking software designed to allow businesses to perform stock takes on a regular basis while streamlining the traditional, arduous stock-taking process. StockPath gives businesses the freedom to delegate stock-related tasks and gain access to key stock insights, such as best sellers and low-stock alerts.
-</p>
-
-<div style="clear: both; margin-top: 80px;"></div>
-
 ## Bennet Hospitality Internship
 
-<img
-  src="images/bennett_hospitality.png"
+<img 
+  src="images/bennett_hospitality.png" 
   alt="Vintage Varsity Project Thumbnail"
-  style="float: right; margin-left: 20px; width: 350px;"
+  style="float: left; margin-right: 20px; width: 350px;"
 />
 
 <p>
 I will be taking part in the Bennet Hospitality Internship in the summer of 2025, a fantastic transatlantic work opportunity. The internship was open to four students from the Business Studies final year class, and following three rounds of rigorous interviews, I was offered one of the four positions available this summer. I am excited to immerse myself in a real-world environment that promises both professional development and personal growth, while gaining valuable insights into the global hospitality industry. This internship is a fantastic opportunity that I eagerly look forward to taking part in.
 </p>
 
-<div style="clear: both;"></div>"
+<div style="clear: both; margin-top: 80px;"></div>

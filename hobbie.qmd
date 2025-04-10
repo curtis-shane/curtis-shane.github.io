@@ -1,1 +1,50 @@
-these are my hobbies
+---
+title: "My Hobbies"
+layout: "default"
+toc: true
+toc-title: "On this page"
+toc-location: right
+page-layout: full
+---
+
+## Football
+
+<img 
+  src="images/football.png" 
+  alt="Football Project Thumbnail" 
+  style="float: left; margin-right: 20px; width: 350px;"
+/>
+
+<p>
+  I have been a massive football fan from an early age, I have played football as long as I can remember. Playing football every Sunday for various teams across Dublin for over 10 years. Not only do i enjoy playing football but I love watching it. Me and my friens often visit different countries to attend international football matches, like the Johan Cruyff arena which you can see in this photo. 
+<p>
+
+<div style="clear: both; margin-top: 80px;"></div>
+
+## Investing
+
+<img
+  src="images/investing.png"
+  alt="Investing Project Thumbnail"
+  style="float: right; margin-left: 20px; width: 350px;"
+/>
+
+<p>
+I love investing and trading because it blends strategy with excitement—it's like a real-life puzzle where every market move challenges my analytical skills. I enjoy researching trends, assessing risks, and watching my decisions unfold in real time. It's not only about making money; it's about understanding the rhythm of the economy and continuously learning from each trade. This dynamic environment keeps me on my toes and fuels my passion for both the art and science of the markets.
+</p>
+
+<div style="clear: both; margin-top: 80px;"></div>
+
+## Hiking
+
+<img 
+  src="images/hiking.png" 
+  alt="Hiking Project Thumbnail"
+  style="float: left; margin-right: 20px; width: 350px;"
+/>
+
+<p>
+Hiking is a hobby I have taken up recently and is something I have gained a great passion for. I frequently drive to various mountain ranges in Ireland with my friends on the weekend. Although Ireland doesn't have a plentiful selection of tall mountains we enjoy climbing and taking in the scenery, however I do aspire to travel abroad and tackle some more challenging mountains one day!
+</p>
+
+<div style="clear: both; margin-top: 80px;"></div>
