@@ -31,15 +31,40 @@ Welcome to my personal website—I'm so glad you're here! This is a place where 
 
 I’ve been lucky enough to be part of my family's retail legacy at Curtis & Dunne, too, where we mix tradition with modern twists to create memorable customer experiences. Think of this site as more than just a portfolio; it's the story of my journey, filled with projects, ideas, and insights that I’m excited to share with you. Whether you’re here to pick up a new idea, explore a potential collaboration, or just have a chat about the latest trends in art and analytics, I’m looking forward to connecting with you. Let’s dive in and see where creativity and data can take us together!
 
+
 <div style="clear: both; margin-top: 60px;"></div>
+
+<!-- My Work Heading -->
+<center>
+  <h3>My Portfolio</h3>
+</center>
 
 <div style="text-align: center;">
 
-| [![](images/candd.png)](work.qmd) | [![](images/hobbies_cover.png)](hobbie.qmd) | [![](images/dcu_cover.png)](college_work.qmd) |
+| [![](images/candd.png){width="350px"}](work.qmd) | [![](images/hobbies_cover.png){width="350px"}](hobbie.qmd) | [![](images/dcu_cover.png){width="350px"}](college_work.qmd) |
 |:--------------------------:|:---------------------------:|:-----------------------------------:|
 |  This is my work page, where I showcase my business career up until this point! | This is my hobbies and interests page where I discuss what makes me, me! |  This is my college projects page, where I showcase all of my college projects. |
 
 </div>
+
+<div style="margin-top: 80px; text-align: center;">
+</div>
+<!-- Centered Heading Above Videos Section -->
+<center>
+  <h3>Pocasts That Interest Me</h3>
+</center>
+
+<!-- Media Section: Embedded Videos -->
+<div style="margin-top: 40px; text-align: center;">
+  <iframe width="350" height="197" src="https://www.youtube.com/embed/AbDT2JTSnA8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-right: 10px;"></iframe>
+  <iframe width="350" height="197" src="https://www.youtube.com/embed/x3e73Qn6NOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-right: 10px;"></iframe>
+  <iframe width="350" height="197" src="https://www.youtube.com/embed/Eu1kHIztT24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!-- Centered descriptive text below the videos -->
+<center style="margin-top: 20px;">
+These are a selection of podcasts from which I draw great inspiration. I've carefully curated this list to include dynamic speakers and thought leaders whose innovative ideas and personal success stories truly resonate with me. I regularly tune in because their insights motivate me, challenge my thinking, and remind me to stay focused on my business goals. Each episode feels like a mini mentoring session that fuels my creativity and drives my entrepreneurial spirit.
+</center>
 
 <div style="margin-top: 100px; text-align: center;">
 ### Contact Me
