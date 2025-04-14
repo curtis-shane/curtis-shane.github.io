@@ -1,5 +1,6 @@
 ---
 title: "My Hobbies"
+nav-title: "Hobbies"
 layout: "default"
 toc: true
 toc-title: "On this page"
