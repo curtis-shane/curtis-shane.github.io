@@ -37,7 +37,7 @@ On this page I highlight my coding and data analyitcs achievements. Through my t
 
 <div style="text-align: center;">
 
-| [![](images/python.png){width="350px"}](college_work.qmd) | [![](images/python.png){width="350px"}](college_work.qmd) |
+| [![](images/kubicle.png){width="350px"}](college_work.qmd) | [![](images/machine_learning.png){width="350px"}](college_work.qmd) |
 |:----------------------------------:|:----------------------------------:|
 | **Project One** – A web application showcasing innovative coding techniques. | **Project Two** – An automation tool I built to simplify everyday tasks. |
 
