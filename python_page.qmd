@@ -1,0 +1,44 @@
+---
+title: ""
+image: images/python.png
+about:
+  template: marquee
+---
+
+<style>
+  /* Adjust the hero image size in the marquee template */
+  .marquee .hero-image img {
+    max-width: 50%; /* Adjust as needed */
+    height: auto;
+    margin: auto;
+  }
+
+  /* Hover effect for clickable images in the table */
+  table img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  table img:hover {
+    transform: translateY(-10px);
+  }
+</style>
+
+<div style="text-align: center;">
+
+
+When I'm not exploring the intersections of business and data, I dive into the fascinating world of code. I enjoy crafting elegant solutions, building web apps, and experimenting with new technologies. Coding is both a creative outlet and a problem-solving adventure that turns ideas into reality. Check out a couple of my favorite coding projects below.
+
+<div style="clear: both; margin-top: 60px;"></div>
+
+<!-- My Coding Projects Section -->
+<center>
+  <h3>My Coding Projects</h3>
+</center>
+
+<div style="text-align: center;">
+
+| [![](images/python.png){width="350px"}](college_work.qmd) | [![](images/python.png){width="350px"}](college_work.qmd) |
+|:----------------------------------:|:----------------------------------:|
+| **Project One** – A web application showcasing innovative coding techniques. | **Project Two** – An automation tool I built to simplify everyday tasks. |
+
+</div>

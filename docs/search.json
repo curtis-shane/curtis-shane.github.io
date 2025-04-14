@@ -138,5 +138,26 @@
     "title": "My College Work",
     "section": "Coding",
     "text": "Coding\n\n\nCoding has been a passion of mine for a very long time, which is why when I had the chance to choose it has my final year specialisation i jumped at the chance. Along the way I have been a part of various coding projects and completed various difficult coding tasks, such as building this website or building a machine learning, classification model, built to predict company bankruptcy. In addition to this I have taken part in various Kubicle courses which have helped further my coding, data analytics and data visualisations skills. Click On The Image To Learn More!"
+  },
+  {
+    "objectID": "my_coding_page.html",
+    "href": "my_coding_page.html",
+    "title": "Shane Curtis",
+    "section": "",
+    "text": "import numpy as np import matplotlib.pyplot as\nr = np.arange(0, 2, 0.01) theta = 2 * np.pi * r fig, ax = plt.subplots( subplot_kw = {‘projection’: ‘polar’} ) ax.plot(theta, r) ax.set_rticks([0.5, 1, 1.5, 2]) ax.grid(True) plt.show"
+  },
+  {
+    "objectID": "python_page.html",
+    "href": "python_page.html",
+    "title": "Shane Curtis",
+    "section": "",
+    "text": "When I’m not exploring the intersections of business and data, I dive into the fascinating world of code. I enjoy crafting elegant solutions, building web apps, and experimenting with new technologies. Coding is both a creative outlet and a problem-solving adventure that turns ideas into reality. Check out a couple of my favorite coding projects below.\n\n\n\n\n\nMy Coding Projects\n\n\n\n\n\n\n\n\n\n\n\n\nProject One – A web application showcasing innovative coding techniques.\nProject Two – An automation tool I built to simplify everyday tasks."
+  },
+  {
+    "objectID": "python_page.html#hey-im-shane-curtis",
+    "href": "python_page.html#hey-im-shane-curtis",
+    "title": "Shane Curtis",
+    "section": "",
+    "text": "When I’m not exploring the intersections of business and data, I dive into the fascinating world of code. I enjoy crafting elegant solutions, building web apps, and experimenting with new technologies. Coding is both a creative outlet and a problem-solving adventure that turns ideas into reality. Check out a couple of my favorite coding projects below.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject One – A web application showcasing innovative coding techniques.\nProject Two – An automation tool I built to simplify everyday tasks."
   }
 ]

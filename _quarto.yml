@@ -14,10 +14,10 @@ website:
       - about.qmd
       - href: work.qmd
         text: Work
-      - href: hobbie.qmd
-        text: Hobbies
       - href: college_work.qmd
         text: College Work
+      - href: hobbie.qmd
+        text: Hobbies
 
 format:
   html:
