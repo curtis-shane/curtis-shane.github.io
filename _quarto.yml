@@ -10,7 +10,8 @@ website:
     logo: Icon_New.png  
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
+    right:
       - about.qmd
       - href: work.qmd
         text: Work
