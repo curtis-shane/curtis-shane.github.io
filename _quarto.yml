@@ -13,9 +13,9 @@ website:
         text: Home
       - about.qmd
       - href: work.qmd
-        text: My Work Page
+        text: Work
       - href: hobbie.qmd
-        text: My Hobbies Page
+        text: Hobbies
 
 format:
   html:
