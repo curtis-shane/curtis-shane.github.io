@@ -1,6 +1,6 @@
 ---
 title: ""
-image: images/python.png
+image: images/python_icon.png
 about:
   template: marquee
 ---
@@ -26,7 +26,7 @@ about:
 <div style="text-align: center;">
 
 
-When I'm not exploring the intersections of business and data, I dive into the fascinating world of code. I enjoy crafting elegant solutions, building web apps, and experimenting with new technologies. Coding is both a creative outlet and a problem-solving adventure that turns ideas into reality. Check out a couple of my favorite coding projects below.
+On this page I highlight my coding and data analyitcs achievements. Through my three years at DCU I have participated in Data Analytics modules, and even specialised in the topic for my final year. Through these years I have created projects, such as this website or even created a machine learning algorithm, designed to identify bankrupt businesses. Along the way I have also collected certificates from Kubicle, across various data analytics topics from AI to Data Storage. Below are the links to my Machine Learning Algorithm and My Kubicle Certfications.
 
 <div style="clear: both; margin-top: 60px;"></div>
 
