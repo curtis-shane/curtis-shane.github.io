@@ -159,5 +159,159 @@
     "title": "Shane Curtis",
     "section": "",
     "text": "When I’m not exploring the intersections of business and data, I dive into the fascinating world of code. I enjoy crafting elegant solutions, building web apps, and experimenting with new technologies. Coding is both a creative outlet and a problem-solving adventure that turns ideas into reality. Check out a couple of my favorite coding projects below.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject One – A web application showcasing innovative coding techniques.\nProject Two – An automation tool I built to simplify everyday tasks."
+  },
+  {
+    "objectID": "ml_report.html",
+    "href": "ml_report.html",
+    "title": "Machine Learning Project Report",
+    "section": "",
+    "text": "The aim of this project is to build a robust and interpretable classification model that can effectively predict corporate bankruptcy using traditional financial indicators. This project follows a structured machine learning pipeline: from data exploration and pre-processing, to model selection, then training, and finally evaluation. Some key challenges addressed include high dimensionality, significant class imbalance, and the need for model transparency—especially when considering the critical implications of bankruptcy misclassification.\nCareful attention was given to choosing the right models for handling imbalanced binary classification, addressing differences in feature scales, and using performance metrics beyond accuracy to better evaluate how well the models could predict outcomes.\n\n\n\nThe dataset was sourced from Kaggle; it consists of 6,819 company records with 95 financial attributes and a clear binary target variable, “Bankrupt?”, which denotes whether a company had declared bankruptcy (1) or not (0). All features were continuous and complete, eliminating the need for missing value imputation.\nHowever, there was a challenge of extreme class imbalance: only 3.2% of instances represented bankrupt companies (220 out of 6,819). This imbalance is common in financial datasets and required targeted techniques to prevent models from becoming biased toward predicting the majority class.\n\n\n\nExploratory data analysis (EDA) was conducted to understand feature behavior, detect outliers, and identify relationships with the target variable. Visualizations of class distributions confirmed the imbalance, while correlation analysis highlighted features with strong discriminatory potential.\nFinancial metrics such as “Debt Ratio %,” “Current Liability to Assets,” and “Borrowing Dependency” were positively correlated with bankruptcy, indicating financial stress. On the other hand, profitability features like “ROA (A),” “Net Worth/Assets,” and “Net Income to Total Assets” were negatively correlated with bankruptcy.\nThese findings informed both model design and interpretation, highlighting variables with strong predictive value.\n\n\n\nFeature scaling was implemented using StandardScaler, which standardizes features to zero mean and unit variance. This step is crucial for algorithms sensitive to feature magnitudes, such as logistic regression, ensuring fair weight distribution across predictors.\nScaling was applied only after the train-test split, with the scaler fitted exclusively on the training data. This preserves the integrity of the test set and prevents data leakage.\n\n\n\nTo address the severe class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) was introduced to the training set. SMOTE works by generating synthetic examples of the minority class by interpolating between existing observations (Chawla et al., 2002). This ensures a balanced class distribution without simply duplicating data.\nOversampling was strictly limited to the training set, preserving the original class proportions in the test set and ensuring proper generalization.\n\n\n\nFollowing pre-processing, three models were chosen: Logistic Regression, Random Forest, and XGBoost. These were selected for their interpretability and their suitability for imbalanced binary classification, offering a balance between simplicity, robustness, and interpretability.\n\nLogistic Regression: Chosen for its linear decision boundary and interpretability. It was enhanced to handle class imbalance by setting class_weight='balanced'.\nRandom Forest (Breiman, 2001): Selected for its robustness and ability to handle non-linear interactions among features. Feature bagging in Random Forest also reduces overfitting and offers interpretability through feature importance scores.\nXGBoost (Chen & Guestrin, 2016): Chosen for its scalability and high performance on structured data, especially when dealing with imbalanced datasets.\n\nAll models were trained using the balanced dataset (post-SMOTE) and evaluated beyond just accuracy—metrics like recall, F1-score, and ROC AUC were used to capture the ability to correctly identify bankrupt companies.\n\n\n\nInitially, each model was trained with default hyperparameters to establish baseline performance. Then, hyperparameter tuning was performed, particularly for Random Forest, to optimize parameters such as tree depth, number of estimators, and minimum samples per split.\nGridSearchCV with 5-fold cross validation was used to systematically search parameter combinations, focusing on maximizing the ROC AUC score. For instance:\n\nn_estimators: [100, 200, 300]\nmax_depth: [None, 10, 20, 30]\nmin_samples_split: [2, 5, 10]\n\nLogistic Regression and XGBoost were adjusted manually (e.g., max_iter=1000 for Logistic Regression to ensure convergence and eval_metric='logloss' for XGBoost). This training approach ensured all models were exposed to the same balanced data and fairly evaluated.\n\n\n\nMultiple evaluation metrics—accuracy, precision, recall, F1-score, and ROC AUC—were used to fully capture performance. Considering the real-world costs of missing bankruptcies, greater emphasis was placed on recall and ROC AUC. Some experiments involved lowering the classification threshold (e.g., to 0.3 in Logistic Regression) to increase recall, acknowledging that in cost-sensitive situations, false negatives can be more damaging than false positives.\nConfusion matrices and precision-recall curves were also used to analyze model misclassification patterns, especially important in highly imbalanced datasets (Saito and Rehmsmeier, 2015)."
+  },
+  {
+    "objectID": "ml_report.html#overview-of-approach",
+    "href": "ml_report.html#overview-of-approach",
+    "title": "Machine Learning Project Report",
+    "section": "",
+    "text": "The aim of this project is to build a robust and interpretable classification model that can effectively predict corporate bankruptcy using traditional financial indicators. This project follows a structured machine learning pipeline: from data exploration and pre-processing, to model selection, then training, and finally evaluation. Some key challenges addressed include high dimensionality, significant class imbalance, and the need for model transparency—especially when considering the critical implications of bankruptcy misclassification.\nCareful attention was given to choosing the right models for handling imbalanced binary classification, addressing differences in feature scales, and using performance metrics beyond accuracy to better evaluate how well the models could predict outcomes."
+  },
+  {
+    "objectID": "ml_report.html#dataset-description",
+    "href": "ml_report.html#dataset-description",
+    "title": "Machine Learning Project Report",
+    "section": "",
+    "text": "The dataset was sourced from Kaggle; it consists of 6,819 company records with 95 financial attributes and a clear binary target variable, “Bankrupt?”, which denotes whether a company had declared bankruptcy (1) or not (0). All features were continuous and complete, eliminating the need for missing value imputation.\nHowever, there was a challenge of extreme class imbalance: only 3.2% of instances represented bankrupt companies (220 out of 6,819). This imbalance is common in financial datasets and required targeted techniques to prevent models from becoming biased toward predicting the majority class."
+  },
+  {
+    "objectID": "ml_report.html#exploratory-analysis-and-feature-assessment",
+    "href": "ml_report.html#exploratory-analysis-and-feature-assessment",
+    "title": "Machine Learning Project Report",
+    "section": "",
+    "text": "Exploratory data analysis (EDA) was conducted to understand feature behavior, detect outliers, and identify relationships with the target variable. Visualizations of class distributions confirmed the imbalance, while correlation analysis highlighted features with strong discriminatory potential.\nFinancial metrics such as “Debt Ratio %,” “Current Liability to Assets,” and “Borrowing Dependency” were positively correlated with bankruptcy, indicating financial stress. On the other hand, profitability features like “ROA (A),” “Net Worth/Assets,” and “Net Income to Total Assets” were negatively correlated with bankruptcy.\nThese findings informed both model design and interpretation, highlighting variables with strong predictive value."
+  },
+  {
+    "objectID": "ml_report.html#data-pre-processing-and-feature-scaling",
+    "href": "ml_report.html#data-pre-processing-and-feature-scaling",
+    "title": "Machine Learning Project Report",
+    "section": "",
+    "text": "Feature scaling was implemented using StandardScaler, which standardizes features to zero mean and unit variance. This step is crucial for algorithms sensitive to feature magnitudes, such as logistic regression, ensuring fair weight distribution across predictors.\nScaling was applied only after the train-test split, with the scaler fitted exclusively on the training data. This preserves the integrity of the test set and prevents data leakage."
+  },
+  {
+    "objectID": "ml_report.html#class-imbalance-correction-with-smote",
+    "href": "ml_report.html#class-imbalance-correction-with-smote",
+    "title": "Machine Learning Project Report",
+    "section": "",
+    "text": "To address the severe class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) was introduced to the training set. SMOTE works by generating synthetic examples of the minority class by interpolating between existing observations (Chawla et al., 2002). This ensures a balanced class distribution without simply duplicating data.\nOversampling was strictly limited to the training set, preserving the original class proportions in the test set and ensuring proper generalization."
+  },
+  {
+    "objectID": "ml_report.html#model-selection-and-justification",
+    "href": "ml_report.html#model-selection-and-justification",
+    "title": "Machine Learning Project Report",
+    "section": "",
+    "text": "Following pre-processing, three models were chosen: Logistic Regression, Random Forest, and XGBoost. These were selected for their interpretability and their suitability for imbalanced binary classification, offering a balance between simplicity, robustness, and interpretability.\n\nLogistic Regression: Chosen for its linear decision boundary and interpretability. It was enhanced to handle class imbalance by setting class_weight='balanced'.\nRandom Forest (Breiman, 2001): Selected for its robustness and ability to handle non-linear interactions among features. Feature bagging in Random Forest also reduces overfitting and offers interpretability through feature importance scores.\nXGBoost (Chen & Guestrin, 2016): Chosen for its scalability and high performance on structured data, especially when dealing with imbalanced datasets.\n\nAll models were trained using the balanced dataset (post-SMOTE) and evaluated beyond just accuracy—metrics like recall, F1-score, and ROC AUC were used to capture the ability to correctly identify bankrupt companies."
+  },
+  {
+    "objectID": "ml_report.html#model-training-and-hyperparameter-tuning",
+    "href": "ml_report.html#model-training-and-hyperparameter-tuning",
+    "title": "Machine Learning Project Report",
+    "section": "",
+    "text": "Initially, each model was trained with default hyperparameters to establish baseline performance. Then, hyperparameter tuning was performed, particularly for Random Forest, to optimize parameters such as tree depth, number of estimators, and minimum samples per split.\nGridSearchCV with 5-fold cross validation was used to systematically search parameter combinations, focusing on maximizing the ROC AUC score. For instance:\n\nn_estimators: [100, 200, 300]\nmax_depth: [None, 10, 20, 30]\nmin_samples_split: [2, 5, 10]\n\nLogistic Regression and XGBoost were adjusted manually (e.g., max_iter=1000 for Logistic Regression to ensure convergence and eval_metric='logloss' for XGBoost). This training approach ensured all models were exposed to the same balanced data and fairly evaluated."
+  },
+  {
+    "objectID": "ml_report.html#evaluation-metrics-and-thresholding",
+    "href": "ml_report.html#evaluation-metrics-and-thresholding",
+    "title": "Machine Learning Project Report",
+    "section": "",
+    "text": "Multiple evaluation metrics—accuracy, precision, recall, F1-score, and ROC AUC—were used to fully capture performance. Considering the real-world costs of missing bankruptcies, greater emphasis was placed on recall and ROC AUC. Some experiments involved lowering the classification threshold (e.g., to 0.3 in Logistic Regression) to increase recall, acknowledging that in cost-sensitive situations, false negatives can be more damaging than false positives.\nConfusion matrices and precision-recall curves were also used to analyze model misclassification patterns, especially important in highly imbalanced datasets (Saito and Rehmsmeier, 2015)."
+  },
+  {
+    "objectID": "ml_report.html#overview-of-model-performance",
+    "href": "ml_report.html#overview-of-model-performance",
+    "title": "Machine Learning Project Report",
+    "section": "2.1 Overview of Model Performance",
+    "text": "2.1 Overview of Model Performance\nThe models were evaluated on the test set. Key metrics like accuracy and ROC AUC are summarized below:\n\n\n\nModel\nAccuracy\nROC AUC\n\n\n\n\nLogistic Regression\n88.34%\n0.9152\n\n\nRandom Forest\n96.04%\n0.9415\n\n\nXGBoost\n96.33%\n0.9443\n\n\nTuned Random Forest\n95.97%\n0.9445\n\n\n\nWhile XGBoost and the Tuned Random Forest produced the highest ROC AUC scores, the Random Forest also performed exceptionally well. Logistic Regression achieved a respectable ROC AUC of 0.915 despite being a simpler baseline model."
+  },
+  {
+    "objectID": "ml_report.html#threshold-adjustment-and-class-specific-performance",
+    "href": "ml_report.html#threshold-adjustment-and-class-specific-performance",
+    "title": "Machine Learning Project Report",
+    "section": "2.2 Threshold Adjustment and Class-Specific Performance",
+    "text": "2.2 Threshold Adjustment and Class-Specific Performance\nLogistic Regression was further analyzed using a custom classification threshold of 0.3 instead of the default 0.5, significantly increasing recall at the cost of some precision:\n\n\n\n\n\n\n\n\nMetric\nDefault Threshold (0.5)\nCustom Threshold (0.3)\n\n\n\n\nRecall (Class=1)\n0.80\n0.86\n\n\nPrecision (Class=1)\n0.19\n0.14\n\n\nF1-score (Class=1)\n0.31\n0.23\n\n\n\nThis reflects a deliberate trade-off where false negatives are considered more costly than false positives."
+  },
+  {
+    "objectID": "ml_report.html#visual-evaluation",
+    "href": "ml_report.html#visual-evaluation",
+    "title": "Machine Learning Project Report",
+    "section": "2.3 Visual Evaluation",
+    "text": "2.3 Visual Evaluation\nMultiple visualizations were used to gain deeper insights:\n\nClass Imbalance and Feature Distribution: Bar charts, boxplots, and histograms highlighted the minority class and pivotal features (e.g., “Operating Profit Rate”).\nConfusion Matrix Heatmaps (Figure 4): Showed relatively few false negatives for the Tuned Random Forest—critical for real-world bankruptcy detection.\nROC Curves (Figure 5): Indicated the Tuned Random Forest achieved an AUC of 0.94, confirming strong class discrimination.\nPrecision-Recall Curves (Figure 6): Demonstrated the trade-off between identifying bankruptcies (recall) and maintaining precision, reinforcing the model’s cost-sensitive application.\nFeature Importance (Figure 7): Showed top financial stress indicators like “Debt Ratio %” and “Net Income to Total Assets” had high predictive power."
+  },
+  {
+    "objectID": "ml_report.html#comparative-analysis-of-models",
+    "href": "ml_report.html#comparative-analysis-of-models",
+    "title": "Machine Learning Project Report",
+    "section": "3.1 Comparative Analysis of Models",
+    "text": "3.1 Comparative Analysis of Models\nXGBoost and the Tuned Random Forest yielded the strongest metrics, with ROC AUCs above 0.94. Logistic Regression still proved useful as a simpler baseline, especially when a custom threshold was applied to improve recall for bankruptcies.\nRandom Forest and XGBoost both leveraged ensemble learning to handle complex, non-linear relationships. The Tuned Random Forest struck an excellent balance between strong performance and interpretability, revealed through feature importance."
+  },
+  {
+    "objectID": "ml_report.html#real-world-suitability",
+    "href": "ml_report.html#real-world-suitability",
+    "title": "Machine Learning Project Report",
+    "section": "3.2 Real-World Suitability",
+    "text": "3.2 Real-World Suitability\nIn high-stakes financial scenarios, interpretability is crucial. Although XGBoost offered marginally higher accuracy, the Random Forest provided feature importance scores, aiding transparency and stakeholder trust. For cost-sensitive contexts where missing a bankruptcy is a severe error, having insight into why a certain prediction was made is invaluable."
+  },
+  {
+    "objectID": "ml_report.html#limitations-and-future-considerations",
+    "href": "ml_report.html#limitations-and-future-considerations",
+    "title": "Machine Learning Project Report",
+    "section": "3.3 Limitations and Future Considerations",
+    "text": "3.3 Limitations and Future Considerations\n\nOnly the Random Forest underwent exhaustive grid search tuning. Further tuning of Logistic Regression and XGBoost could yield performance gains.\nSMOTE helped balance the training set, but the real-world class imbalance remains a challenge in deployment, potentially increasing false positives.\nFuture work might explore alternative sampling techniques, cost-sensitive loss functions, or advanced interpretability methods like SHAP to gain deeper insights."
+  },
+  {
+    "objectID": "ml_report.html#figure-1-class-distribution",
+    "href": "ml_report.html#figure-1-class-distribution",
+    "title": "Machine Learning Project Report",
+    "section": "Figure 1: Class Distribution",
+    "text": "Figure 1: Class Distribution\nThis figure shows the distribution of bankrupt versus non-bankrupt companies, highlighting the extreme class imbalance."
+  },
+  {
+    "objectID": "ml_report.html#figure-2-boxplot-of-operating-profit-rate",
+    "href": "ml_report.html#figure-2-boxplot-of-operating-profit-rate",
+    "title": "Machine Learning Project Report",
+    "section": "Figure 2: Boxplot of Operating Profit Rate",
+    "text": "Figure 2: Boxplot of Operating Profit Rate\nThis boxplot compares the operating profit rates between bankrupt and non-bankrupt firms."
+  },
+  {
+    "objectID": "ml_report.html#figure-3-histogram-with-kde-of-operating-profit-rate",
+    "href": "ml_report.html#figure-3-histogram-with-kde-of-operating-profit-rate",
+    "title": "Machine Learning Project Report",
+    "section": "Figure 3: Histogram with KDE of Operating Profit Rate",
+    "text": "Figure 3: Histogram with KDE of Operating Profit Rate\nThe histogram with kernel density estimate (KDE) illustrates how the operating profit rate distributions differ by bankruptcy status."
+  },
+  {
+    "objectID": "ml_report.html#figure-4-confusion-matrix-heatmap-for-tuned-random-forest",
+    "href": "ml_report.html#figure-4-confusion-matrix-heatmap-for-tuned-random-forest",
+    "title": "Machine Learning Project Report",
+    "section": "Figure 4: Confusion Matrix Heatmap for Tuned Random Forest",
+    "text": "Figure 4: Confusion Matrix Heatmap for Tuned Random Forest\nThis heatmap provides insight into the classification outcomes by showing the true/false positives and negatives on the test set."
+  },
+  {
+    "objectID": "ml_report.html#figure-5-roc-curve-for-tuned-random-forest",
+    "href": "ml_report.html#figure-5-roc-curve-for-tuned-random-forest",
+    "title": "Machine Learning Project Report",
+    "section": "Figure 5: ROC Curve for Tuned Random Forest",
+    "text": "Figure 5: ROC Curve for Tuned Random Forest\nThe ROC curve demonstrates the trade-off between true positive rate and false positive rate for varying classification thresholds, with an AUC of 0.94."
+  },
+  {
+    "objectID": "ml_report.html#figure-6-precision-recall-curve-for-tuned-random-forest",
+    "href": "ml_report.html#figure-6-precision-recall-curve-for-tuned-random-forest",
+    "title": "Machine Learning Project Report",
+    "section": "Figure 6: Precision-Recall Curve for Tuned Random Forest",
+    "text": "Figure 6: Precision-Recall Curve for Tuned Random Forest\nThis curve highlights the balance between precision and recall, critical in cost-sensitive prediction scenarios."
+  },
+  {
+    "objectID": "ml_report.html#figure-7-feature-importance-in-tuned-random-forest",
+    "href": "ml_report.html#figure-7-feature-importance-in-tuned-random-forest",
+    "title": "Machine Learning Project Report",
+    "section": "Figure 7: Feature Importance in Tuned Random Forest",
+    "text": "Figure 7: Feature Importance in Tuned Random Forest\nA bar chart ranking the top 10 most important features as determined by the model, revealing key financial indicators linked to bankruptcy prediction."
   }
 ]

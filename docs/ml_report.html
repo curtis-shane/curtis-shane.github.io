@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Machine Learning Project Report – Shane Curtis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Icon_New.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-75f2c0c1313ab4c8ba91de85f829b9ff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./Icon_New.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./work.html"> 
+<span class="menu-text">Work</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./college_work.html"> 
+<span class="menu-text">College Work</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./hobbie.html"> 
+<span class="menu-text">Hobbies</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link active" data-scroll-target="#methodology">1. Methodology</a>
+  <ul class="collapse">
+  <li><a href="#overview-of-approach" id="toc-overview-of-approach" class="nav-link" data-scroll-target="#overview-of-approach">1.1 Overview of Approach</a></li>
+  <li><a href="#dataset-description" id="toc-dataset-description" class="nav-link" data-scroll-target="#dataset-description">1.2 Dataset Description</a></li>
+  <li><a href="#exploratory-analysis-and-feature-assessment" id="toc-exploratory-analysis-and-feature-assessment" class="nav-link" data-scroll-target="#exploratory-analysis-and-feature-assessment">1.3 Exploratory Analysis and Feature Assessment</a></li>
+  <li><a href="#data-pre-processing-and-feature-scaling" id="toc-data-pre-processing-and-feature-scaling" class="nav-link" data-scroll-target="#data-pre-processing-and-feature-scaling">1.4 Data Pre-processing and Feature Scaling</a></li>
+  <li><a href="#class-imbalance-correction-with-smote" id="toc-class-imbalance-correction-with-smote" class="nav-link" data-scroll-target="#class-imbalance-correction-with-smote">1.5 Class Imbalance Correction with SMOTE</a></li>
+  <li><a href="#model-selection-and-justification" id="toc-model-selection-and-justification" class="nav-link" data-scroll-target="#model-selection-and-justification">1.6 Model Selection and Justification</a></li>
+  <li><a href="#model-training-and-hyperparameter-tuning" id="toc-model-training-and-hyperparameter-tuning" class="nav-link" data-scroll-target="#model-training-and-hyperparameter-tuning">1.7 Model Training and Hyperparameter Tuning</a></li>
+  <li><a href="#evaluation-metrics-and-thresholding" id="toc-evaluation-metrics-and-thresholding" class="nav-link" data-scroll-target="#evaluation-metrics-and-thresholding">1.8 Evaluation Metrics and Thresholding</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">2. Results</a>
+  <ul class="collapse">
+  <li><a href="#overview-of-model-performance" id="toc-overview-of-model-performance" class="nav-link" data-scroll-target="#overview-of-model-performance">2.1 Overview of Model Performance</a></li>
+  <li><a href="#threshold-adjustment-and-class-specific-performance" id="toc-threshold-adjustment-and-class-specific-performance" class="nav-link" data-scroll-target="#threshold-adjustment-and-class-specific-performance">2.2 Threshold Adjustment and Class-Specific Performance</a></li>
+  <li><a href="#visual-evaluation" id="toc-visual-evaluation" class="nav-link" data-scroll-target="#visual-evaluation">2.3 Visual Evaluation</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">3. Discussion</a>
+  <ul class="collapse">
+  <li><a href="#comparative-analysis-of-models" id="toc-comparative-analysis-of-models" class="nav-link" data-scroll-target="#comparative-analysis-of-models">3.1 Comparative Analysis of Models</a></li>
+  <li><a href="#real-world-suitability" id="toc-real-world-suitability" class="nav-link" data-scroll-target="#real-world-suitability">3.2 Real-World Suitability</a></li>
+  <li><a href="#limitations-and-future-considerations" id="toc-limitations-and-future-considerations" class="nav-link" data-scroll-target="#limitations-and-future-considerations">3.3 Limitations and Future Considerations</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a>
+  <ul class="collapse">
+  <li><a href="#figure-1-class-distribution" id="toc-figure-1-class-distribution" class="nav-link" data-scroll-target="#figure-1-class-distribution">Figure 1: Class Distribution</a></li>
+  <li><a href="#figure-2-boxplot-of-operating-profit-rate" id="toc-figure-2-boxplot-of-operating-profit-rate" class="nav-link" data-scroll-target="#figure-2-boxplot-of-operating-profit-rate">Figure 2: Boxplot of Operating Profit Rate</a></li>
+  <li><a href="#figure-3-histogram-with-kde-of-operating-profit-rate" id="toc-figure-3-histogram-with-kde-of-operating-profit-rate" class="nav-link" data-scroll-target="#figure-3-histogram-with-kde-of-operating-profit-rate">Figure 3: Histogram with KDE of Operating Profit Rate</a></li>
+  <li><a href="#figure-4-confusion-matrix-heatmap-for-tuned-random-forest" id="toc-figure-4-confusion-matrix-heatmap-for-tuned-random-forest" class="nav-link" data-scroll-target="#figure-4-confusion-matrix-heatmap-for-tuned-random-forest">Figure 4: Confusion Matrix Heatmap for Tuned Random Forest</a></li>
+  <li><a href="#figure-5-roc-curve-for-tuned-random-forest" id="toc-figure-5-roc-curve-for-tuned-random-forest" class="nav-link" data-scroll-target="#figure-5-roc-curve-for-tuned-random-forest">Figure 5: ROC Curve for Tuned Random Forest</a></li>
+  <li><a href="#figure-6-precision-recall-curve-for-tuned-random-forest" id="toc-figure-6-precision-recall-curve-for-tuned-random-forest" class="nav-link" data-scroll-target="#figure-6-precision-recall-curve-for-tuned-random-forest">Figure 6: Precision-Recall Curve for Tuned Random Forest</a></li>
+  <li><a href="#figure-7-feature-importance-in-tuned-random-forest" id="toc-figure-7-feature-importance-in-tuned-random-forest" class="nav-link" data-scroll-target="#figure-7-feature-importance-in-tuned-random-forest">Figure 7: Feature Importance in Tuned Random Forest</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Machine Learning Project Report</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="methodology" class="level1">
+<h1>1. Methodology</h1>
+<section id="overview-of-approach" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-approach">1.1 Overview of Approach</h2>
+<p>The aim of this project is to build a robust and interpretable classification model that can effectively predict corporate bankruptcy using traditional financial indicators. This project follows a structured machine learning pipeline: from data exploration and pre-processing, to model selection, then training, and finally evaluation. Some key challenges addressed include high dimensionality, significant class imbalance, and the need for model transparency—especially when considering the critical implications of bankruptcy misclassification.</p>
+<p>Careful attention was given to choosing the right models for handling imbalanced binary classification, addressing differences in feature scales, and using performance metrics beyond accuracy to better evaluate how well the models could predict outcomes.</p>
+</section>
+<section id="dataset-description" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-description">1.2 Dataset Description</h2>
+<p>The dataset was sourced from Kaggle; it consists of 6,819 company records with 95 financial attributes and a clear binary target variable, “Bankrupt?”, which denotes whether a company had declared bankruptcy (1) or not (0). All features were continuous and complete, eliminating the need for missing value imputation.</p>
+<p>However, there was a challenge of extreme class imbalance: only 3.2% of instances represented bankrupt companies (220 out of 6,819). This imbalance is common in financial datasets and required targeted techniques to prevent models from becoming biased toward predicting the majority class.</p>
+</section>
+<section id="exploratory-analysis-and-feature-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="exploratory-analysis-and-feature-assessment">1.3 Exploratory Analysis and Feature Assessment</h2>
+<p>Exploratory data analysis (EDA) was conducted to understand feature behavior, detect outliers, and identify relationships with the target variable. Visualizations of class distributions confirmed the imbalance, while correlation analysis highlighted features with strong discriminatory potential.</p>
+<p>Financial metrics such as “Debt Ratio %,” “Current Liability to Assets,” and “Borrowing Dependency” were positively correlated with bankruptcy, indicating financial stress. On the other hand, profitability features like “ROA (A),” “Net Worth/Assets,” and “Net Income to Total Assets” were negatively correlated with bankruptcy.</p>
+<p>These findings informed both model design and interpretation, highlighting variables with strong predictive value.</p>
+</section>
+<section id="data-pre-processing-and-feature-scaling" class="level2">
+<h2 class="anchored" data-anchor-id="data-pre-processing-and-feature-scaling">1.4 Data Pre-processing and Feature Scaling</h2>
+<p>Feature scaling was implemented using StandardScaler, which standardizes features to zero mean and unit variance. This step is crucial for algorithms sensitive to feature magnitudes, such as logistic regression, ensuring fair weight distribution across predictors.</p>
+<p>Scaling was applied only after the train-test split, with the scaler fitted exclusively on the training data. This preserves the integrity of the test set and prevents data leakage.</p>
+</section>
+<section id="class-imbalance-correction-with-smote" class="level2">
+<h2 class="anchored" data-anchor-id="class-imbalance-correction-with-smote">1.5 Class Imbalance Correction with SMOTE</h2>
+<p>To address the severe class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) was introduced to the training set. SMOTE works by generating synthetic examples of the minority class by interpolating between existing observations (Chawla et al., 2002). This ensures a balanced class distribution without simply duplicating data.</p>
+<p>Oversampling was strictly limited to the training set, preserving the original class proportions in the test set and ensuring proper generalization.</p>
+</section>
+<section id="model-selection-and-justification" class="level2">
+<h2 class="anchored" data-anchor-id="model-selection-and-justification">1.6 Model Selection and Justification</h2>
+<p>Following pre-processing, three models were chosen: Logistic Regression, Random Forest, and XGBoost. These were selected for their interpretability and their suitability for imbalanced binary classification, offering a balance between simplicity, robustness, and interpretability.</p>
+<ul>
+<li><strong>Logistic Regression</strong>: Chosen for its linear decision boundary and interpretability. It was enhanced to handle class imbalance by setting <code>class_weight='balanced'</code>.</li>
+<li><strong>Random Forest (Breiman, 2001)</strong>: Selected for its robustness and ability to handle non-linear interactions among features. Feature bagging in Random Forest also reduces overfitting and offers interpretability through feature importance scores.</li>
+<li><strong>XGBoost (Chen &amp; Guestrin, 2016)</strong>: Chosen for its scalability and high performance on structured data, especially when dealing with imbalanced datasets.</li>
+</ul>
+<p>All models were trained using the balanced dataset (post-SMOTE) and evaluated beyond just accuracy—metrics like recall, F1-score, and ROC AUC were used to capture the ability to correctly identify bankrupt companies.</p>
+</section>
+<section id="model-training-and-hyperparameter-tuning" class="level2">
+<h2 class="anchored" data-anchor-id="model-training-and-hyperparameter-tuning">1.7 Model Training and Hyperparameter Tuning</h2>
+<p>Initially, each model was trained with default hyperparameters to establish baseline performance. Then, hyperparameter tuning was performed, particularly for Random Forest, to optimize parameters such as tree depth, number of estimators, and minimum samples per split.</p>
+<p><strong>GridSearchCV</strong> with 5-fold cross validation was used to systematically search parameter combinations, focusing on maximizing the ROC AUC score. For instance:</p>
+<ul>
+<li><code>n_estimators</code>: [100, 200, 300]</li>
+<li><code>max_depth</code>: [None, 10, 20, 30]</li>
+<li><code>min_samples_split</code>: [2, 5, 10]</li>
+</ul>
+<p>Logistic Regression and XGBoost were adjusted manually (e.g., <code>max_iter=1000</code> for Logistic Regression to ensure convergence and <code>eval_metric='logloss'</code> for XGBoost). This training approach ensured all models were exposed to the same balanced data and fairly evaluated.</p>
+</section>
+<section id="evaluation-metrics-and-thresholding" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-metrics-and-thresholding">1.8 Evaluation Metrics and Thresholding</h2>
+<p>Multiple evaluation metrics—accuracy, precision, recall, F1-score, and ROC AUC—were used to fully capture performance. Considering the real-world costs of missing bankruptcies, greater emphasis was placed on recall and ROC AUC. Some experiments involved lowering the classification threshold (e.g., to 0.3 in Logistic Regression) to increase recall, acknowledging that in cost-sensitive situations, false negatives can be more damaging than false positives.</p>
+<p>Confusion matrices and precision-recall curves were also used to analyze model misclassification patterns, especially important in highly imbalanced datasets (Saito and Rehmsmeier, 2015).</p>
+</section>
+</section>
+<section id="results" class="level1">
+<h1>2. Results</h1>
+<section id="overview-of-model-performance" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-model-performance">2.1 Overview of Model Performance</h2>
+<p>The models were evaluated on the test set. Key metrics like accuracy and ROC AUC are summarized below:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Model</th>
+<th style="text-align: right;">Accuracy</th>
+<th style="text-align: right;">ROC AUC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Logistic Regression</td>
+<td style="text-align: right;">88.34%</td>
+<td style="text-align: right;">0.9152</td>
+</tr>
+<tr class="even">
+<td>Random Forest</td>
+<td style="text-align: right;">96.04%</td>
+<td style="text-align: right;">0.9415</td>
+</tr>
+<tr class="odd">
+<td>XGBoost</td>
+<td style="text-align: right;">96.33%</td>
+<td style="text-align: right;">0.9443</td>
+</tr>
+<tr class="even">
+<td>Tuned Random Forest</td>
+<td style="text-align: right;">95.97%</td>
+<td style="text-align: right;">0.9445</td>
+</tr>
+</tbody>
+</table>
+<p>While XGBoost and the Tuned Random Forest produced the highest ROC AUC scores, the Random Forest also performed exceptionally well. Logistic Regression achieved a respectable ROC AUC of 0.915 despite being a simpler baseline model.</p>
+</section>
+<section id="threshold-adjustment-and-class-specific-performance" class="level2">
+<h2 class="anchored" data-anchor-id="threshold-adjustment-and-class-specific-performance">2.2 Threshold Adjustment and Class-Specific Performance</h2>
+<p>Logistic Regression was further analyzed using a custom classification threshold of 0.3 instead of the default 0.5, significantly increasing recall at the cost of some precision:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 36%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th style="text-align: right;">Default Threshold (0.5)</th>
+<th style="text-align: right;">Custom Threshold (0.3)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Recall (Class=1)</strong></td>
+<td style="text-align: right;">0.80</td>
+<td style="text-align: right;">0.86</td>
+</tr>
+<tr class="even">
+<td><strong>Precision (Class=1)</strong></td>
+<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">0.14</td>
+</tr>
+<tr class="odd">
+<td><strong>F1-score (Class=1)</strong></td>
+<td style="text-align: right;">0.31</td>
+<td style="text-align: right;">0.23</td>
+</tr>
+</tbody>
+</table>
+<p>This reflects a deliberate trade-off where false negatives are considered more costly than false positives.</p>
+</section>
+<section id="visual-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="visual-evaluation">2.3 Visual Evaluation</h2>
+<p>Multiple visualizations were used to gain deeper insights:</p>
+<ul>
+<li><strong>Class Imbalance and Feature Distribution:</strong> Bar charts, boxplots, and histograms highlighted the minority class and pivotal features (e.g., “Operating Profit Rate”).</li>
+<li><strong>Confusion Matrix Heatmaps (Figure 4):</strong> Showed relatively few false negatives for the Tuned Random Forest—critical for real-world bankruptcy detection.</li>
+<li><strong>ROC Curves (Figure 5):</strong> Indicated the Tuned Random Forest achieved an AUC of 0.94, confirming strong class discrimination.</li>
+<li><strong>Precision-Recall Curves (Figure 6):</strong> Demonstrated the trade-off between identifying bankruptcies (recall) and maintaining precision, reinforcing the model’s cost-sensitive application.</li>
+<li><strong>Feature Importance (Figure 7):</strong> Showed top financial stress indicators like “Debt Ratio %” and “Net Income to Total Assets” had high predictive power.</li>
+</ul>
+</section>
+</section>
+<section id="discussion" class="level1">
+<h1>3. Discussion</h1>
+<section id="comparative-analysis-of-models" class="level2">
+<h2 class="anchored" data-anchor-id="comparative-analysis-of-models">3.1 Comparative Analysis of Models</h2>
+<p>XGBoost and the Tuned Random Forest yielded the strongest metrics, with ROC AUCs above 0.94. Logistic Regression still proved useful as a simpler baseline, especially when a custom threshold was applied to improve recall for bankruptcies.</p>
+<p>Random Forest and XGBoost both leveraged ensemble learning to handle complex, non-linear relationships. The Tuned Random Forest struck an excellent balance between strong performance and interpretability, revealed through feature importance.</p>
+</section>
+<section id="real-world-suitability" class="level2">
+<h2 class="anchored" data-anchor-id="real-world-suitability">3.2 Real-World Suitability</h2>
+<p>In high-stakes financial scenarios, interpretability is crucial. Although XGBoost offered marginally higher accuracy, the Random Forest provided feature importance scores, aiding transparency and stakeholder trust. For cost-sensitive contexts where missing a bankruptcy is a severe error, having insight into why a certain prediction was made is invaluable.</p>
+</section>
+<section id="limitations-and-future-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-and-future-considerations">3.3 Limitations and Future Considerations</h2>
+<ul>
+<li>Only the Random Forest underwent exhaustive grid search tuning. Further tuning of Logistic Regression and XGBoost could yield performance gains.</li>
+<li>SMOTE helped balance the training set, but the real-world class imbalance remains a challenge in deployment, potentially increasing false positives.</li>
+<li>Future work might explore alternative sampling techniques, cost-sensitive loss functions, or advanced interpretability methods like SHAP to gain deeper insights.</li>
+</ul>
+</section>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>This project demonstrates a comprehensive machine learning pipeline for corporate bankruptcy prediction. Careful data preprocessing, model selection, and SMOTE-based class balancing improved predictive performance. Evaluations that focused on recall and ROC AUC underscored the real-world cost-sensitive nature of missed bankruptcies. Ultimately, ensemble models like Random Forest and XGBoost shone in terms of raw performance, while the more interpretable Random Forest offered enhanced transparency—vital for financial applications. Future iterations could refine hyperparameters across all models and leverage advanced interpretability techniques to further support high-stakes decision-making.</p>
+<hr>
+</section>
+<section id="bibliography" class="level1">
+<h1>Bibliography</h1>
+<ul>
+<li>Breiman, L. (2001). Random Forests. <em>Machine Learning</em>, 45(1), pp.5–32.<br>
+</li>
+<li>Chawla, N.V., Bowyer, K.W., Hall, L.O., &amp; Kegelmeyer, W.P. (2002). SMOTE: Synthetic Minority Over-sampling Technique. <em>Journal of Artificial Intelligence Research</em>, 16, pp.321–357.<br>
+</li>
+<li>Chen, T., &amp; Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. <em>Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD ’16)</em>. pp.785–794. ACM.<br>
+</li>
+<li>Saito, T., &amp; Rehmsmeier, M. (2015). The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets. <em>PLOS ONE</em>, 10(3), e0118432.<br>
+</li>
+<li>Scikit-learn. (2023). <em>Classification Metrics</em>. [online] Available at: <a href="https://scikit-learn.org/stable/modules/model_evaluation.html">https://scikit-learn.org/stable/modules/model_evaluation.html</a> [Accessed 13 Apr.&nbsp;2025].</li>
+</ul>
+</section>
+<section id="appendix" class="level1">
+<h1>Appendix</h1>
+<section id="figure-1-class-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="figure-1-class-distribution">Figure 1: Class Distribution</h2>
+<p>This figure shows the distribution of bankrupt versus non-bankrupt companies, highlighting the extreme class imbalance.<br>
+<img src="images/figure1.png" class="img-fluid" alt="Figure 1: Class Distribution"></p>
+</section>
+<section id="figure-2-boxplot-of-operating-profit-rate" class="level2">
+<h2 class="anchored" data-anchor-id="figure-2-boxplot-of-operating-profit-rate">Figure 2: Boxplot of Operating Profit Rate</h2>
+<p>This boxplot compares the operating profit rates between bankrupt and non-bankrupt firms.<br>
+<img src="images/figure2.png" class="img-fluid" alt="Figure 2: Boxplot"></p>
+</section>
+<section id="figure-3-histogram-with-kde-of-operating-profit-rate" class="level2">
+<h2 class="anchored" data-anchor-id="figure-3-histogram-with-kde-of-operating-profit-rate">Figure 3: Histogram with KDE of Operating Profit Rate</h2>
+<p>The histogram with kernel density estimate (KDE) illustrates how the operating profit rate distributions differ by bankruptcy status.<br>
+<img src="images/figure3.png" class="img-fluid" alt="Figure 3: Histogram with KDE"></p>
+</section>
+<section id="figure-4-confusion-matrix-heatmap-for-tuned-random-forest" class="level2">
+<h2 class="anchored" data-anchor-id="figure-4-confusion-matrix-heatmap-for-tuned-random-forest">Figure 4: Confusion Matrix Heatmap for Tuned Random Forest</h2>
+<p>This heatmap provides insight into the classification outcomes by showing the true/false positives and negatives on the test set.<br>
+<img src="images/figure4.png" class="img-fluid" alt="Figure 4: Confusion Matrix"></p>
+</section>
+<section id="figure-5-roc-curve-for-tuned-random-forest" class="level2">
+<h2 class="anchored" data-anchor-id="figure-5-roc-curve-for-tuned-random-forest">Figure 5: ROC Curve for Tuned Random Forest</h2>
+<p>The ROC curve demonstrates the trade-off between true positive rate and false positive rate for varying classification thresholds, with an AUC of 0.94.<br>
+<img src="images/figure5.png" class="img-fluid" alt="Figure 5: ROC Curve"></p>
+</section>
+<section id="figure-6-precision-recall-curve-for-tuned-random-forest" class="level2">
+<h2 class="anchored" data-anchor-id="figure-6-precision-recall-curve-for-tuned-random-forest">Figure 6: Precision-Recall Curve for Tuned Random Forest</h2>
+<p>This curve highlights the balance between precision and recall, critical in cost-sensitive prediction scenarios.<br>
+<img src="images/figure6.png" class="img-fluid" alt="Figure 6: Precision-Recall Curve"></p>
+</section>
+<section id="figure-7-feature-importance-in-tuned-random-forest" class="level2">
+<h2 class="anchored" data-anchor-id="figure-7-feature-importance-in-tuned-random-forest">Figure 7: Feature Importance in Tuned Random Forest</h2>
+<p>A bar chart ranking the top 10 most important features as determined by the model, revealing key financial indicators linked to bankruptcy prediction.<br>
+<img src="images/figure7.png" class="img-fluid" alt="Figure 7: Feature Importance"></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
