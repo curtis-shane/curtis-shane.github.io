@@ -1,0 +1,39 @@
+---
+title: "My Course Certificates"
+layout: "default"
+toc: false
+page-layout: full
+---
+
+## Course Certificates
+
+Below is a summary of my certificates and completed courses:
+
+| **Subject**                | **Name**                                               | **Date Completed**    |
+|----------------------------|--------------------------------------------------------|-----------------------|
+| Data Security              | Course: Handling Data Securely and Responsibly         | March 5th, 2025       |
+| Data Security              | Course: Keeping Your Information Safe                  | March 5th, 2025       |
+| Data Presentation Skills   | Course: Presenting Your Data                           | March 5th, 2025       |
+| Data Presentation Skills   | Course: Telling Stories with Data                      | March 5th, 2025       |
+| Data Presentation Skills   | Course: Communicating Data Effectively                 | March 5th, 2025       |
+| Tableau                    | Course: Introduction to Formulas in Tableau            | March 28th, 2024      |
+| SQL                        | Course: Understanding SQL Databases                    | March 26th, 2024      |
+| Visualization Fundamentals | Course: Visualization in Practice                      | March 14th, 2024      |
+| Visualization Fundamentals | Course: Applying Visual Data Skills                    | March 14th, 2024      |
+| Visualization Fundamentals | Course: Visual Data Thinking                           | March 14th, 2024      |
+| Tableau                    | Course: Filter, Groups, and Sets                       | March 11th, 2024      |
+| Excel                      | Course: Monte Carlo Simulation                         | March 4th, 2024       |
+| Excel                      | Course: Finance Functions                              | February 15th, 2024   |
+| Python Fundamentals        | Course: Functions, Conditionality and Loops            | November 24th, 2023   |
+| Python Fundamentals        | Course: Python Fundamentals                            | November 15th, 2023   |
+| Tableau                    | Course: Creating Visualizations in Tableau             | November 13th, 2023   |
+| Tableau                    | Course: Introducing Tableau                            | November 3rd, 2023    |
+| Excel                      | Course: Text, Time, and Dates                          | February 16th, 2023   |
+| Excel                      | Course: Lookups and Database Functions                 | February 2nd, 2023    |
+| Excel                      | Course: Charts in Depth                                | January 21st, 2023    |
+| Excel                      | Course: Pivot Tables                                   | January 17th, 2023    |
+| Excel                      | Course: Formulas and Functions                         | November 11th, 2022   |
+| Statistical Analysis       | Course: Principles of Statistics                       | October 14th, 2022    |
+| Data Literacy              | Course: Introduction to Data Preparation               | October 14th, 2022    |
+| Excel                      | Course: Data Manipulation and Formatting               | October 9th, 2022     |
+| Data Literacy              | Course: Introduction to Data and Databases             | October 3rd, 2022     |
