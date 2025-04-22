@@ -6,7 +6,7 @@ about:
   links: 
     - icon: linkedin 
       text: LinkedIn
-      href: https://www.linkedin.com/in/shane-curtis-8101022b1/
+      href: pdfs/shane_curtis_cv.pdf
 ---
 
 I’m Shane Curtis—a driven student, aspiring data analyst, and passionate entrepreneur currently pursuing a degree in Business Studies with a specialisation in Data Analytics at Dublin City University. I’ve always been fascinated by the intersection of business and technology, and I’m constantly exploring ways to blend my academic knowledge with real-world impact.
