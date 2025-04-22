@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "python_page.html",
+    "href": "python_page.html",
+    "title": "Shane Curtis",
+    "section": "",
+    "text": "On this page I highlight my coding and data analyitcs achievements. Through my three years at DCU I have participated in Data Analytics modules, and even specialised in the topic for my final year. Through these years I have created projects, such as this website or even created a machine learning algorithm, designed to identify bankrupt businesses. Along the way I have also collected certificates from Kubicle, across various data analytics topics from AI to Data Storage. Below are the links to my Machine Learning Algorithm and My Kubicle Certfications.\n\n\n\n\n\nMy Coding Projects\n\n\n\n\n\n\n\n\n\n\n\n\nProject One – A web application showcasing innovative coding techniques.\nProject Two – An automation tool I built to simplify everyday tasks."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m Shane Curtis—a driven student, aspiring data analyst, and passionate entrepreneur currently pursuing a degree in Business Studies with a specialisation in Data Analytics at Dublin City University. I’ve always been fascinated by the intersection of business and technology, and I’m constantly exploring ways to blend my academic knowledge with real-world impact.\nOver the past few years, I’ve had the privilege of launching and growing my own vintage clothing business, focusing on authentic American collegiate apparel and vintage sportswear. From sourcing unique pieces to managing sales on Depop and attending in-person vintage markets, this venture has taught me the ins and outs of e-commerce, brand building, and customer experience. It’s been a rewarding journey that reflects both my eye for style and my commitment to creating value in niche markets.\nAlongside this, I play a key role in Curtis & Dunne, my family’s independent menswear business based in a small Irish town. We’re proud of our reputation for exceptional customer service, quality brands, and genuine community engagement. My involvement spans everything from marketing and retail strategy to exploring the future of fashion retail in a digital age. This hands-on experience has given me a unique perspective on the challenges and opportunities facing traditional businesses today.\nBeyond my entrepreneurial pursuits, I’m committed to lifelong learning and building a well-rounded skill set. I’ve recently immersed myself in Python programming, cloud computing, and data visualization tools such as Power BI and Tableau. These tools allow me to turn raw data into meaningful insights—helping businesses make informed decisions, identify trends, and unlock new opportunities. I’m especially interested in using analytics to solve real-world problems and drive sustainable growth.\nI approach every project with a mix of curiosity, creativity, and strategic thinking. Whether I’m optimizing backend processes, refining a customer segmentation model, coding a new feature for this website, or developing marketing strategies for Curtis & Dunne, I thrive when I’m learning, building, and pushing boundaries. I’m also passionate about investing, particularly in emerging technologies and global markets, and I enjoy exploring how macroeconomic trends can shape new business landscapes.\nThis website is more than just a portfolio—it’s a living document of my journey so far. It captures my work, my interests, and my evolving perspective as a student, entrepreneur, and future data professional. I’m always open to new collaborations, interesting conversations, or simply exchanging ideas—so don’t hesitate to get in touch. Let’s connect, build, and grow together."
+    "text": "I’m Shane Curtis—a driven student, aspiring data analyst, and passionate entrepreneur currently pursuing a degree in Business Studies with a specialisation in Data Analytics at Dublin City University. I’ve always been fascinated by the intersection of business and technology, and I’m constantly exploring ways to blend my academic knowledge with real‑world impact.\nOver the past few years, I’ve had the privilege of launching and growing my own vintage clothing business, focusing on authentic American collegiate apparel and vintage sportswear. From sourcing unique pieces to managing sales on Depop and attending in‑person vintage markets, this venture has taught me the ins and outs of e‑commerce, brand building, and customer experience. It’s been a rewarding journey that reflects both my eye for style and my commitment to creating value in niche markets.\nAlongside this, I play a key role in Curtis & Dunne, my family’s independent menswear business based in a small Irish town. We’re proud of our reputation for exceptional customer service, quality brands, and genuine community engagement. My involvement spans everything from marketing and retail strategy to exploring the future of fashion retail in a digital age. This hands‑on experience has given me a unique perspective on the challenges and opportunities facing traditional businesses today.\n\n\nPreview My CV\n\n\n&lt;iframe \n  src=\"../pdfs/shane_curtis_cv.pdf\" \n  width=\"100%\" \n  height=\"600px\" \n  style=\"border:none;\"\n&gt;\n  Your browser doesn’t support embedded PDFs.  \n  &lt;a href=\"../pdfs/shane_curtis_cv.pdf\" target=\"_blank\"&gt;View it here.&lt;/a&gt;\n&lt;/iframe&gt;\n\n\nBeyond my entrepreneurial pursuits, I’m committed to lifelong learning and building a well‑rounded skill set. I’ve recently immersed myself in Python programming, cloud computing, and data visualization tools such as Power BI and Tableau. These tools allow me to turn raw data into meaningful insights—helping businesses make informed decisions, identify trends, and unlock new opportunities. I’m especially interested in using analytics to solve real‑world problems and drive sustainable growth.\nI approach every project with a mix of curiosity, creativity, and strategic thinking. Whether I’m optimizing backend processes, refining a customer segmentation model, coding a new feature for this website, or developing marketing strategies for Curtis & Dunne, I thrive when I’m learning, building, and pushing boundaries. I’m also passionate about investing, particularly in emerging technologies and global markets, and I enjoy exploring how macroeconomic trends can shape new business landscapes.\nThis website is more than just a portfolio—it’s a living document of my journey so far. It captures my work, my interests, and my evolving perspective as a student, entrepreneur, and future data professional. I’m always open to new collaborations, interesting conversations, or simply exchanging ideas—so don’t hesitate to get in touch. Let’s connect, build, and grow together."
   },
   {
     "objectID": "work.html",
@@ -28,13 +35,6 @@
     "text": "Vintage Varsity\n\n\nVintage Varsity is my entrepreneurial venture, which I started in late 2023. As someone who has always been interested in starting my own business, I thought it would be a fun yet educational project to pursue. I created the logo, business name, and brand identity first. Following this, I sourced multiple suppliers from Cork and Dublin to Austria, where I obtain vintage American apparel such as university hoodies and sweatshirts, as well as American pro sports jerseys (NFL, NBA, MLB, and NHL)."
   },
   {
-    "objectID": "work.html#stockpath",
-    "href": "work.html#stockpath",
-    "title": "My Work",
-    "section": "StockPath",
-    "text": "StockPath\n\n\nStockPath is my New Enterprise Development (NED) Project, where my team was tasked with developing a business idea and a comprehensive business plan covering everything from feasibility to marketing. Our business is centered around stock management and tracking software designed to allow businesses to perform stock takes on a regular basis while streamlining the traditional, arduous stock-taking process. StockPath gives businesses the freedom to delegate stock-related tasks and gain access to key stock insights, such as best sellers and low-stock alerts."
-  },
-  {
     "objectID": "work.html#bennet-hospitality-internship",
     "href": "work.html#bennet-hospitality-internship",
     "title": "My Work",
@@ -42,39 +42,11 @@
     "text": "Bennet Hospitality Internship\n\n\nI will be taking part in the Bennet Hospitality Internship in the summer of 2025, a fantastic transatlantic work opportunity. The internship was open to four students from the Business Studies final year class, and following three rounds of rigorous interviews, I was offered one of the four positions available this summer. I am excited to immerse myself in a real-world environment that promises both professional development and personal growth, while gaining valuable insights into the global hospitality industry. This internship is a fantastic opportunity that I eagerly look forward to taking part in."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Shane Curtis",
-    "section": "",
-    "text": "Welcome to my personal website—I’m so glad you’re here! This is a place where business, data, creativity, and entrepreneurship come together in a really fun and dynamic way. I’m currently studying Business Studies at DCU with a focus on Data Analytics, and I love digging into data to turn it into smart, actionable strategies. But that’s not all—I’m also the founder of a vintage clothing business that celebrates unique style and creative flair.\nI’ve been lucky enough to be part of my family’s retail legacy at Curtis & Dunne, too, where we mix tradition with modern twists to create memorable customer experiences. Think of this site as more than just a portfolio; it’s the story of my journey, filled with projects, ideas, and insights that I’m excited to share with you. Whether you’re here to pick up a new idea, explore a potential collaboration, or just have a chat about the latest trends in art and analytics, I’m looking forward to connecting with you. Let’s dive in and see where creativity and data can take us together!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is my work page, where I showcase my business career up until this point!\nThis is my hobbies and interests page where I discuss what makes me, me!\nThis is my college projects page, where I showcase all of my college projects.\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\nThese are a selection of podcasts from which I draw great inspiration. I’ve carefully curated this list to include dynamic speakers and thought leaders whose innovative ideas and personal success stories truly resonate with me. I regularly tune in because their insights motivate me, challenge my thinking, and remind me to stay focused on my business goals. Each episode feels like a mini mentoring session that fuels my creativity and drives my entrepreneurial spirit."
-  },
-  {
-    "objectID": "index.html#hi-im-shane-curtis",
-    "href": "index.html#hi-im-shane-curtis",
-    "title": "Shane Curtis",
-    "section": "",
-    "text": "Welcome to my personal website—I’m so glad you’re here! This is a place where business, data, creativity, and entrepreneurship come together in a really fun and dynamic way. I’m currently studying Business Studies at DCU with a focus on Data Analytics, and I love digging into data to turn it into smart, actionable strategies. But that’s not all—I’m also the founder of a vintage clothing business that celebrates unique style and creative flair.\nI’ve been lucky enough to be part of my family’s retail legacy at Curtis & Dunne, too, where we mix tradition with modern twists to create memorable customer experiences. Think of this site as more than just a portfolio; it’s the story of my journey, filled with projects, ideas, and insights that I’m excited to share with you. Whether you’re here to pick up a new idea, explore a potential collaboration, or just have a chat about the latest trends in art and analytics, I’m looking forward to connecting with you. Let’s dive in and see where creativity and data can take us together!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is my work page, where I showcase my business career up until this point!\nThis is my hobbies and interests page where I discuss what makes me, me!\nThis is my college projects page, where I showcase all of my college projects.\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\nThese are a selection of podcasts from which I draw great inspiration. I’ve carefully curated this list to include dynamic speakers and thought leaders whose innovative ideas and personal success stories truly resonate with me. I regularly tune in because their insights motivate me, challenge my thinking, and remind me to stay focused on my business goals. Each episode feels like a mini mentoring session that fuels my creativity and drives my entrepreneurial spirit."
-  },
-  {
-    "objectID": "college_work.html",
-    "href": "college_work.html",
-    "title": "My College Work",
-    "section": "",
-    "text": "StockPath is the idea that me and my friends came up with for our college NED project. The idea came from my background in retail, as it is a stock management software solution. StockPath is a software business, built to help small business deal with the stock management issue that they face on a daily basis. We aim to create an app that pairs with a website, which will allow business owners to access valuable stock data insights at any time. We look to reduce the impacts of stock-takes too by implementing a “segmented stock-take” approach, to reduce the time consuming element of stock-takes. Click On The Image To Read The Report!"
-  },
-  {
     "objectID": "hobbie.html",
     "href": "hobbie.html",
     "title": "My Hobbies",
     "section": "",
     "text": "I have been a massive football fan from an early age, I have played football as long as I can remember. Playing football every Sunday for various teams across Dublin for over 10 years. Not only do i enjoy playing football but I love watching it. Me and my friens often visit different countries to attend international football matches, like the Johan Cruyff arena which you can see in this photo."
-  },
-  {
-    "objectID": "work.html#bennet-hospitality-internship-1",
-    "href": "work.html#bennet-hospitality-internship-1",
-    "title": "My Work",
-    "section": "Bennet Hospitality Internship",
-    "text": "Bennet Hospitality Internship\n\n\nI will be taking part in the Bennet Hospitality Internship in the summer of 2025, a fantastic transatlantic work opportunity. The internship was open to four students from the Business Studies final year class, and following three rounds of rigorous interviews, I was offered one of the four positions available this summer. I am excited to immerse myself in a real-world environment that promises both professional development and personal growth, while gaining valuable insights into the global hospitality industry. This internship is a fantastic opportunity that I eagerly look forward to taking part in.\n\n\n\n\n”"
   },
   {
     "objectID": "hobbie.html#football",
@@ -98,39 +70,18 @@
     "text": "Hiking\n\n\nHiking is a hobby I have taken up recently and is something I have gained a great passion for. I frequently drive to various mountain ranges in Ireland with my friends on the weekend. Although Ireland doesn’t have a plentiful selection of tall mountains we enjoy climbing and taking in the scenery, however I do aspire to travel abroad and tackle some more challenging mountains one day!"
   },
   {
-    "objectID": "college_work.html#stockpath",
-    "href": "college_work.html#stockpath",
+    "objectID": "college_work.html",
+    "href": "college_work.html",
     "title": "My College Work",
     "section": "",
-    "text": "StockPath is the idea that me and my friends came up with for our college NED project. The idea came from my background in retail, as it is a stock management software solution. StockPath is a software business, built to help small business deal with the stock management issue that they face on a daily basis. We aim to create an app that pairs with a website, which will allow business owners to access valuable stock data insights at any time. We look to reduce the impacts of stock-takes too by implementing a “segmented stock-take” approach, to reduce the time consuming element of stock-takes. Click On The Image To Learn More!"
+    "text": "StockPath is the idea that me and my friends came up with for our college NED project. The idea came from my background in retail, as it is a stock management software solution. StockPath is a software business, built to help small business deal with the stock management issue that they face on a daily basis. We aim to create an app that pairs with a website, which will allow business owners to access valuable stock data insights at any time. We look to reduce the impacts of stock-takes too by implementing a “segmented stock-take” approach, to reduce the time consuming element of stock-takes. Click On The Image To Read The Report!"
   },
   {
-    "objectID": "college_work.html#investing",
-    "href": "college_work.html#investing",
+    "objectID": "college_work.html#stockpath-feasibility-report",
+    "href": "college_work.html#stockpath-feasibility-report",
     "title": "My College Work",
-    "section": "Investing",
-    "text": "Investing\n\n\nI love investing and trading because it blends strategy with excitement—it’s like a real-life puzzle where every market move challenges my analytical skills. I enjoy researching trends, assessing risks, and watching my decisions unfold in real time. It’s not only about making money; it’s about understanding the rhythm of the economy and continuously learning from each trade. This dynamic environment keeps me on my toes and fuels my passion for both the art and science of the markets."
-  },
-  {
-    "objectID": "college_work.html#hiking",
-    "href": "college_work.html#hiking",
-    "title": "My College Work",
-    "section": "Hiking",
-    "text": "Hiking\n\n\nHiking is a hobby I have taken up recently and is something I have gained a great passion for. I frequently drive to various mountain ranges in Ireland with my friends on the weekend. Although Ireland doesn’t have a plentiful selection of tall mountains we enjoy climbing and taking in the scenery, however I do aspire to travel abroad and tackle some more challenging mountains one day!"
-  },
-  {
-    "objectID": "college_work.html#keoghs-strategic-report",
-    "href": "college_work.html#keoghs-strategic-report",
-    "title": "My College Work",
-    "section": "Keogh’s Strategic Report",
-    "text": "Keogh’s Strategic Report\n  \n\nFor our “Business Strategy” module, me and my team chose Keogh’s as the company we wanted to analyse and strategically review. We looked at all aspects of the crisp manufacturer, from their traditional farming roots to their supply chain efficiency. As we inspected all aspects of the business, we then gave recommendations on key strategic issues that we had highlighted along the way. We then presented our findings in presentation format for our class to review. Click On The Image To View The Report!"
-  },
-  {
-    "objectID": "college_work.html#pythoncoding",
-    "href": "college_work.html#pythoncoding",
-    "title": "My College Work",
-    "section": "Python/Coding",
-    "text": "Python/Coding\n\n\nCoding has been a passion of mine for a very long time, which is why when I had the chance to choose it has my final year specialisation i jumped at the chance. Along the way I have been a part of various coding projects and completed various difficult coding tasks, such as building this website or building a machine learning, classification model, built to predict company bankruptcy. In addition to this I have taken part in various Kubicle courses which have helped further my coding, data analytics and data visualisations skills. Click On The Image To Learn More!"
+    "section": "",
+    "text": "StockPath is the idea that me and my friends came up with for our college NED project. The idea came from my background in retail, as it is a stock management software solution. StockPath is a software business, built to help small business deal with the stock management issue that they face on a daily basis. We aim to create an app that pairs with a website, which will allow business owners to access valuable stock data insights at any time. We look to reduce the impacts of stock-takes too by implementing a “segmented stock-take” approach, to reduce the time consuming element of stock-takes. Click On The Image To Read The Report!"
   },
   {
     "objectID": "college_work.html#coding",
@@ -140,25 +91,39 @@
     "text": "Coding\n\n  \n\nCoding has been a passion of mine for a very long time, which is why when I had the chance to choose it as my final year specialisation, I jumped at the opportunity. Along the way, I have been a part of various coding projects and completed several challenging coding tasks, such as building this website or developing a machine learning classification model to predict company bankruptcy. In addition, I have taken part in various Kubicle courses that have further honed my coding, data analytics, and data visualization skills. Click On The Image To Learn More!"
   },
   {
-    "objectID": "my_coding_page.html",
-    "href": "my_coding_page.html",
-    "title": "Shane Curtis",
-    "section": "",
-    "text": "import numpy as np import matplotlib.pyplot as\nr = np.arange(0, 2, 0.01) theta = 2 * np.pi * r fig, ax = plt.subplots( subplot_kw = {‘projection’: ‘polar’} ) ax.plot(theta, r) ax.set_rticks([0.5, 1, 1.5, 2]) ax.grid(True) plt.show"
+    "objectID": "college_work.html#keoghs-strategic-report",
+    "href": "college_work.html#keoghs-strategic-report",
+    "title": "My College Work",
+    "section": "Keogh’s Strategic Report",
+    "text": "Keogh’s Strategic Report\n  \n\nFor our “Business Strategy” module, me and my team chose Keogh’s as the company we wanted to analyse and strategically review. We looked at all aspects of the crisp manufacturer, from their traditional farming roots to their supply chain efficiency. As we inspected all aspects of the business, we then gave recommendations on key strategic issues that we had highlighted along the way. We then presented our findings in presentation format for our class to review. Click On The Image To View The Report!"
   },
   {
-    "objectID": "python_page.html",
-    "href": "python_page.html",
-    "title": "Shane Curtis",
+    "objectID": "kubicle_page.html",
+    "href": "kubicle_page.html",
+    "title": "My Course Certificates",
     "section": "",
-    "text": "On this page I highlight my coding and data analyitcs achievements. Through my three years at DCU I have participated in Data Analytics modules, and even specialised in the topic for my final year. Through these years I have created projects, such as this website or even created a machine learning algorithm, designed to identify bankrupt businesses. Along the way I have also collected certificates from Kubicle, across various data analytics topics from AI to Data Storage. Below are the links to my Machine Learning Algorithm and My Kubicle Certfications.\n\n\n\n\n\nMy Coding Projects\n\n\n\n\n\n\n\n\n\n\n\n\nProject One – A web application showcasing innovative coding techniques.\nProject Two – An automation tool I built to simplify everyday tasks."
+    "text": "Below is a summary of my certificates and completed courses:\n\n\n\n\n\n\n\n\nSubject\nName\nDate Completed\n\n\n\n\nData Security\nCourse: Handling Data Securely and Responsibly\nMarch 5th, 2025\n\n\nData Security\nCourse: Keeping Your Information Safe\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Presenting Your Data\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Telling Stories with Data\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Communicating Data Effectively\nMarch 5th, 2025\n\n\nTableau\nCourse: Introduction to Formulas in Tableau\nMarch 28th, 2024\n\n\nSQL\nCourse: Understanding SQL Databases\nMarch 26th, 2024\n\n\nVisualization Fundamentals\nCourse: Visualization in Practice\nMarch 14th, 2024\n\n\nVisualization Fundamentals\nCourse: Applying Visual Data Skills\nMarch 14th, 2024\n\n\nVisualization Fundamentals\nCourse: Visual Data Thinking\nMarch 14th, 2024\n\n\nTableau\nCourse: Filter, Groups, and Sets\nMarch 11th, 2024\n\n\nExcel\nCourse: Monte Carlo Simulation\nMarch 4th, 2024\n\n\nExcel\nCourse: Finance Functions\nFebruary 15th, 2024\n\n\nPython Fundamentals\nCourse: Functions, Conditionality and Loops\nNovember 24th, 2023\n\n\nPython Fundamentals\nCourse: Python Fundamentals\nNovember 15th, 2023\n\n\nTableau\nCourse: Creating Visualizations in Tableau\nNovember 13th, 2023\n\n\nTableau\nCourse: Introducing Tableau\nNovember 3rd, 2023\n\n\nExcel\nCourse: Text, Time, and Dates\nFebruary 16th, 2023\n\n\nExcel\nCourse: Lookups and Database Functions\nFebruary 2nd, 2023\n\n\nExcel\nCourse: Charts in Depth\nJanuary 21st, 2023\n\n\nExcel\nCourse: Pivot Tables\nJanuary 17th, 2023\n\n\nExcel\nCourse: Formulas and Functions\nNovember 11th, 2022\n\n\nStatistical Analysis\nCourse: Principles of Statistics\nOctober 14th, 2022\n\n\nData Literacy\nCourse: Introduction to Data Preparation\nOctober 14th, 2022\n\n\nExcel\nCourse: Data Manipulation and Formatting\nOctober 9th, 2022\n\n\nData Literacy\nCourse: Introduction to Data and Databases\nOctober 3rd, 2022"
   },
   {
-    "objectID": "python_page.html#hey-im-shane-curtis",
-    "href": "python_page.html#hey-im-shane-curtis",
+    "objectID": "kubicle_page.html#course-certificates",
+    "href": "kubicle_page.html#course-certificates",
+    "title": "My Course Certificates",
+    "section": "",
+    "text": "Below is a summary of my certificates and completed courses:\n\n\n\n\n\n\n\n\nSubject\nName\nDate Completed\n\n\n\n\nData Security\nCourse: Handling Data Securely and Responsibly\nMarch 5th, 2025\n\n\nData Security\nCourse: Keeping Your Information Safe\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Presenting Your Data\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Telling Stories with Data\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Communicating Data Effectively\nMarch 5th, 2025\n\n\nTableau\nCourse: Introduction to Formulas in Tableau\nMarch 28th, 2024\n\n\nSQL\nCourse: Understanding SQL Databases\nMarch 26th, 2024\n\n\nVisualization Fundamentals\nCourse: Visualization in Practice\nMarch 14th, 2024\n\n\nVisualization Fundamentals\nCourse: Applying Visual Data Skills\nMarch 14th, 2024\n\n\nVisualization Fundamentals\nCourse: Visual Data Thinking\nMarch 14th, 2024\n\n\nTableau\nCourse: Filter, Groups, and Sets\nMarch 11th, 2024\n\n\nExcel\nCourse: Monte Carlo Simulation\nMarch 4th, 2024\n\n\nExcel\nCourse: Finance Functions\nFebruary 15th, 2024\n\n\nPython Fundamentals\nCourse: Functions, Conditionality and Loops\nNovember 24th, 2023\n\n\nPython Fundamentals\nCourse: Python Fundamentals\nNovember 15th, 2023\n\n\nTableau\nCourse: Creating Visualizations in Tableau\nNovember 13th, 2023\n\n\nTableau\nCourse: Introducing Tableau\nNovember 3rd, 2023\n\n\nExcel\nCourse: Text, Time, and Dates\nFebruary 16th, 2023\n\n\nExcel\nCourse: Lookups and Database Functions\nFebruary 2nd, 2023\n\n\nExcel\nCourse: Charts in Depth\nJanuary 21st, 2023\n\n\nExcel\nCourse: Pivot Tables\nJanuary 17th, 2023\n\n\nExcel\nCourse: Formulas and Functions\nNovember 11th, 2022\n\n\nStatistical Analysis\nCourse: Principles of Statistics\nOctober 14th, 2022\n\n\nData Literacy\nCourse: Introduction to Data Preparation\nOctober 14th, 2022\n\n\nExcel\nCourse: Data Manipulation and Formatting\nOctober 9th, 2022\n\n\nData Literacy\nCourse: Introduction to Data and Databases\nOctober 3rd, 2022"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Shane Curtis",
     "section": "",
-    "text": "When I’m not exploring the intersections of business and data, I dive into the fascinating world of code. I enjoy crafting elegant solutions, building web apps, and experimenting with new technologies. Coding is both a creative outlet and a problem-solving adventure that turns ideas into reality. Check out a couple of my favorite coding projects below.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject One – A web application showcasing innovative coding techniques.\nProject Two – An automation tool I built to simplify everyday tasks."
+    "text": "Welcome to my personal website—I’m so glad you’re here! This is a place where business, data, creativity, and entrepreneurship come together in a really fun and dynamic way. I’m currently studying Business Studies at DCU with a focus on Data Analytics, and I love digging into data to turn it into smart, actionable strategies. But that’s not all—I’m also the founder of a vintage clothing business that celebrates unique style and creative flair.\nI’ve been lucky enough to be part of my family’s retail legacy at Curtis & Dunne, too, where we mix tradition with modern twists to create memorable customer experiences. Think of this site as more than just a portfolio; it’s the story of my journey, filled with projects, ideas, and insights that I’m excited to share with you. Whether you’re here to pick up a new idea, explore a potential collaboration, or just have a chat about the latest trends in art and analytics, I’m looking forward to connecting with you. Let’s dive in and see where creativity and data can take us together!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is my work page, where I showcase my business career up until this point!\nThis is my hobbies and interests page where I discuss what makes me, me!\nThis is my college projects page, where I showcase all of my college projects.\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\nThese are a selection of podcasts from which I draw great inspiration. I’ve carefully curated this list to include dynamic speakers and thought leaders whose innovative ideas and personal success stories truly resonate with me. I regularly tune in because their insights motivate me, challenge my thinking, and remind me to stay focused on my business goals. Each episode feels like a mini mentoring session that fuels my creativity and drives my entrepreneurial spirit."
+  },
+  {
+    "objectID": "index.html#hi-im-shane-curtis",
+    "href": "index.html#hi-im-shane-curtis",
+    "title": "Shane Curtis",
+    "section": "",
+    "text": "Welcome to my personal website—I’m so glad you’re here! This is a place where business, data, creativity, and entrepreneurship come together in a really fun and dynamic way. I’m currently studying Business Studies at DCU with a focus on Data Analytics, and I love digging into data to turn it into smart, actionable strategies. But that’s not all—I’m also the founder of a vintage clothing business that celebrates unique style and creative flair.\nI’ve been lucky enough to be part of my family’s retail legacy at Curtis & Dunne, too, where we mix tradition with modern twists to create memorable customer experiences. Think of this site as more than just a portfolio; it’s the story of my journey, filled with projects, ideas, and insights that I’m excited to share with you. Whether you’re here to pick up a new idea, explore a potential collaboration, or just have a chat about the latest trends in art and analytics, I’m looking forward to connecting with you. Let’s dive in and see where creativity and data can take us together!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is my work page, where I showcase my business career up until this point!\nThis is my hobbies and interests page where I discuss what makes me, me!\nThis is my college projects page, where I showcase all of my college projects.\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\nThese are a selection of podcasts from which I draw great inspiration. I’ve carefully curated this list to include dynamic speakers and thought leaders whose innovative ideas and personal success stories truly resonate with me. I regularly tune in because their insights motivate me, challenge my thinking, and remind me to stay focused on my business goals. Each episode feels like a mini mentoring session that fuels my creativity and drives my entrepreneurial spirit."
   },
   {
     "objectID": "ml_report.html",
@@ -313,26 +278,5 @@
     "title": "Machine Learning Project Report",
     "section": "Figure 7: Feature Importance in Tuned Random Forest",
     "text": "Figure 7: Feature Importance in Tuned Random Forest\nA bar chart ranking the top 10 most important features as determined by the model, revealing key financial indicators linked to bankruptcy prediction."
-  },
-  {
-    "objectID": "kubicle_page.html",
-    "href": "kubicle_page.html",
-    "title": "My Course Certificates",
-    "section": "",
-    "text": "Below is a summary of my certificates and completed courses:\n\n\n\n\n\n\n\n\nSubject\nName\nDate Completed\n\n\n\n\nData Security\nCourse: Handling Data Securely and Responsibly\nMarch 5th, 2025\n\n\nData Security\nCourse: Keeping Your Information Safe\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Presenting Your Data\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Telling Stories with Data\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Communicating Data Effectively\nMarch 5th, 2025\n\n\nTableau\nCourse: Introduction to Formulas in Tableau\nMarch 28th, 2024\n\n\nSQL\nCourse: Understanding SQL Databases\nMarch 26th, 2024\n\n\nVisualization Fundamentals\nCourse: Visualization in Practice\nMarch 14th, 2024\n\n\nVisualization Fundamentals\nCourse: Applying Visual Data Skills\nMarch 14th, 2024\n\n\nVisualization Fundamentals\nCourse: Visual Data Thinking\nMarch 14th, 2024\n\n\nTableau\nCourse: Filter, Groups, and Sets\nMarch 11th, 2024\n\n\nExcel\nCourse: Monte Carlo Simulation\nMarch 4th, 2024\n\n\nExcel\nCourse: Finance Functions\nFebruary 15th, 2024\n\n\nPython Fundamentals\nCourse: Functions, Conditionality and Loops\nNovember 24th, 2023\n\n\nPython Fundamentals\nCourse: Python Fundamentals\nNovember 15th, 2023\n\n\nTableau\nCourse: Creating Visualizations in Tableau\nNovember 13th, 2023\n\n\nTableau\nCourse: Introducing Tableau\nNovember 3rd, 2023\n\n\nExcel\nCourse: Text, Time, and Dates\nFebruary 16th, 2023\n\n\nExcel\nCourse: Lookups and Database Functions\nFebruary 2nd, 2023\n\n\nExcel\nCourse: Charts in Depth\nJanuary 21st, 2023\n\n\nExcel\nCourse: Pivot Tables\nJanuary 17th, 2023\n\n\nExcel\nCourse: Formulas and Functions\nNovember 11th, 2022\n\n\nStatistical Analysis\nCourse: Principles of Statistics\nOctober 14th, 2022\n\n\nData Literacy\nCourse: Introduction to Data Preparation\nOctober 14th, 2022\n\n\nExcel\nCourse: Data Manipulation and Formatting\nOctober 9th, 2022\n\n\nData Literacy\nCourse: Introduction to Data and Databases\nOctober 3rd, 2022"
-  },
-  {
-    "objectID": "kubicle_page.html#course-certificates",
-    "href": "kubicle_page.html#course-certificates",
-    "title": "My Course Certificates",
-    "section": "",
-    "text": "Below is a summary of my certificates and completed courses:\n\n\n\n\n\n\n\n\nSubject\nName\nDate Completed\n\n\n\n\nData Security\nCourse: Handling Data Securely and Responsibly\nMarch 5th, 2025\n\n\nData Security\nCourse: Keeping Your Information Safe\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Presenting Your Data\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Telling Stories with Data\nMarch 5th, 2025\n\n\nData Presentation Skills\nCourse: Communicating Data Effectively\nMarch 5th, 2025\n\n\nTableau\nCourse: Introduction to Formulas in Tableau\nMarch 28th, 2024\n\n\nSQL\nCourse: Understanding SQL Databases\nMarch 26th, 2024\n\n\nVisualization Fundamentals\nCourse: Visualization in Practice\nMarch 14th, 2024\n\n\nVisualization Fundamentals\nCourse: Applying Visual Data Skills\nMarch 14th, 2024\n\n\nVisualization Fundamentals\nCourse: Visual Data Thinking\nMarch 14th, 2024\n\n\nTableau\nCourse: Filter, Groups, and Sets\nMarch 11th, 2024\n\n\nExcel\nCourse: Monte Carlo Simulation\nMarch 4th, 2024\n\n\nExcel\nCourse: Finance Functions\nFebruary 15th, 2024\n\n\nPython Fundamentals\nCourse: Functions, Conditionality and Loops\nNovember 24th, 2023\n\n\nPython Fundamentals\nCourse: Python Fundamentals\nNovember 15th, 2023\n\n\nTableau\nCourse: Creating Visualizations in Tableau\nNovember 13th, 2023\n\n\nTableau\nCourse: Introducing Tableau\nNovember 3rd, 2023\n\n\nExcel\nCourse: Text, Time, and Dates\nFebruary 16th, 2023\n\n\nExcel\nCourse: Lookups and Database Functions\nFebruary 2nd, 2023\n\n\nExcel\nCourse: Charts in Depth\nJanuary 21st, 2023\n\n\nExcel\nCourse: Pivot Tables\nJanuary 17th, 2023\n\n\nExcel\nCourse: Formulas and Functions\nNovember 11th, 2022\n\n\nStatistical Analysis\nCourse: Principles of Statistics\nOctober 14th, 2022\n\n\nData Literacy\nCourse: Introduction to Data Preparation\nOctober 14th, 2022\n\n\nExcel\nCourse: Data Manipulation and Formatting\nOctober 9th, 2022\n\n\nData Literacy\nCourse: Introduction to Data and Databases\nOctober 3rd, 2022"
-  },
-  {
-    "objectID": "college_work.html#stockpath-feasibility-report",
-    "href": "college_work.html#stockpath-feasibility-report",
-    "title": "My College Work",
-    "section": "",
-    "text": "StockPath is the idea that me and my friends came up with for our college NED project. The idea came from my background in retail, as it is a stock management software solution. StockPath is a software business, built to help small business deal with the stock management issue that they face on a daily basis. We aim to create an app that pairs with a website, which will allow business owners to access valuable stock data insights at any time. We look to reduce the impacts of stock-takes too by implementing a “segmented stock-take” approach, to reduce the time consuming element of stock-takes. Click On The Image To Read The Report!"
   }
 ]
