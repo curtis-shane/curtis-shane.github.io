@@ -19,7 +19,9 @@ page-layout: full
 </a>
 
 <p>
- StockPath is the idea that me and my friends came up with for our college NED project. The idea came from my background in retail, as it is a stock management software solution. StockPath is a software business, built to help small business deal with the stock management issue that they face on a daily basis. We aim to create an app that pairs with a website, which will allow business owners to access valuable stock data insights at any time. We look to reduce the impacts of stock-takes too by implementing a “segmented stock-take” approach, to reduce the time consuming element of stock-takes.  **<span style="color: var(--bs-primary);">Click On The Image To Read The Report!</span>**
+ StockPath is the idea that me and my friends came up with for our college NED project. The idea came from my background in retail, as it is a stock management software solution. StockPath is a software business, built to help small business deal with the stock management issue that they face on a daily basis. We aim to create an app that pairs with a website, which will allow business owners to access valuable stock data insights at any time. We look to reduce the impacts of stock-takes too by implementing a “segmented stock-take” approach.  
+ 
+ **<span style="color: var(--bs-primary);">Click On The Image To Read The Report!</span>**
 </p>
 
 <div style="clear: both; margin-top: 80px;"></div>
@@ -38,7 +40,9 @@ page-layout: full
 </a>
 
 <p>
-  Coding has been a passion of mine for a very long time, which is why when I had the chance to choose it as my final year specialisation, I jumped at the opportunity. Along the way, I have been a part of various coding projects and completed several challenging coding tasks, such as building this website or developing a machine learning classification model to predict company bankruptcy. In addition, I have taken part in various Kubicle courses that have further honed my coding, data analytics, and data visualization skills. **<span style="color: var(--bs-primary);">Click On The Image To Learn More!</span>**
+  Coding has been a passion of mine for a very long time, which is why when I had the chance to choose it as my final year specialisation, I jumped at the opportunity. Along the way, I have been a part of various coding projects and completed several challenging coding tasks, such as building this website or developing a machine learning classification model to predict company bankruptcy. In addition, I have taken part in various Kubicle courses that have further honed my coding, data analytics, and data visualization skills.
+  
+   **<span style="color: var(--bs-primary);">Click On The Image To Learn More!</span>**
 </p>
 
 <div style="clear: both; margin-top: 80px;"></div>
@@ -56,7 +60,9 @@ page-layout: full
 </a>
 
 <p>
-  For our "Business Strategy" module, me and my team chose Keogh's as the company we wanted to analyse and strategically review. We looked at all aspects of the crisp manufacturer, from their traditional farming roots to their supply chain efficiency. As we inspected all aspects of the business, we then gave recommendations on key strategic issues that we had highlighted along the way. We then presented our findings in presentation format for our class to review. **<span style="color: var(--bs-primary);">Click On The Image To View The Report!</span>**
+  For our "Business Strategy" module, me and my team chose Keogh's as the company we wanted to analyse and strategically review. We looked at all aspects of the crisp manufacturer, from their traditional farming roots to their supply chain efficiency. As we inspected all aspects of the business, we then gave recommendations on key strategic issues that we had highlighted along the way. We then presented our findings in presentation format for our class to review. 
+  
+  **<span style="color: var(--bs-primary);">Click On The Image To View The Report!</span>**
 </p>
 
 <div style="clear: both; margin-top: 80px;"></div>
