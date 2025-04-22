@@ -4,9 +4,9 @@ image: images/about_photo.png
 about:
   template: jolla
   links: 
-    - icon: linkedin 
-      text: LinkedIn
-      href: pdfs/shane_curtis_cv.pdf
+    - icon: file-earmark-pdf
+      text: CV
+      href: /pdfs/shane_curtis_cv.pdf
 ---
 
 I’m Shane Curtis—a driven student, aspiring data analyst, and passionate entrepreneur currently pursuing a degree in Business Studies with a specialisation in Data Analytics at Dublin City University. I’ve always been fascinated by the intersection of business and technology, and I’m constantly exploring ways to blend my academic knowledge with real-world impact.
