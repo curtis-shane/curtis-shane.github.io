@@ -19,8 +19,10 @@ page-layout: full
   />
 </a>
 
-<p>
-  This is Curtis&Dunne, my family’s menswear clothing store based in the town of Drogheda. Since opening in 2020, Curtis&Dunne has built a community of loyal customers and fostered a strong local community spirit. In the five years I’ve worked at Curtis&Dunne, I have learned so much about the day-to-day running and management of a business. In addition, I have personally overseen the social media aspect of the business and helped manage traffic flows for the e-commerce side. Curtis&Dunne has played a huge role in my development, and I continue to learn day in and day out from this family venture.  
+<p> 
+  This is Curtis&Dunne, my family’s menswear clothing store based in the town of Drogheda. Since opening in 2020, Curtis&Dunne has built a community of loyal customers and fostered a strong local community spirit. In the five years I’ve worked at Curtis&Dunne, I have learned so much about the day-to-day running and management of a business. In addition, I have personally overseen the social media aspect of the business and helped manage traffic flows for the e-commerce side.
+  
+   **<span style="color: var(--bs-primary);">Click On The Image To Read Visit The Website</span>**  
 <p>
 
 <div style="clear: both; margin-top: 80px;"></div>
@@ -38,7 +40,9 @@ page-layout: full
 </a>
 
 <p>
-  Vintage Varsity is my entrepreneurial venture, which I started in late 2023. As someone who has always been interested in starting my own business, I thought it would be a fun yet educational project to pursue. I created the logo, business name, and brand identity first. Following this, I sourced multiple suppliers from Cork and Dublin to Austria, where I obtain vintage American apparel such as university hoodies and sweatshirts, as well as American pro sports jerseys (NFL, NBA, MLB, and NHL).
+  Vintage Varsity is my entrepreneurial venture, which I started in late 2023. As someone who has always been interested in starting my own business, I thought it would be a fun yet educational project to pursue. I created the logo, business name, and brand identity first. Following this, I sourced multiple suppliers from Cork and Dublin to Austria, where I obtain vintage American apparel such as university hoodies and sweatshirts, as well as American pro sports jerseys (NFL, NBA, MLB, and NHL). 
+  
+  **<span style="color: var(--bs-primary);">Click On The Image To Visit The Page</span>**
 </p>
 
 <div style="clear: both; margin-top: 80px;"></div>
@@ -57,6 +61,8 @@ page-layout: full
 
 <p>
 I will be taking part in the Bennet Hospitality Internship in the summer of 2025, a fantastic transatlantic work opportunity. The internship was open to four students from the Business Studies final year class, and following three rounds of rigorous interviews, I was offered one of the four positions available this summer. I am excited to immerse myself in a real-world environment that promises both professional development and personal growth, while gaining valuable insights into the global hospitality industry. This internship is a fantastic opportunity that I eagerly look forward to taking part in.
+
+  **<span style="color: var(--bs-primary);">Click On The Image To Visit The Page</span>**
 </p>
 
 <div style="clear: both; margin-top: 80px;"></div>
